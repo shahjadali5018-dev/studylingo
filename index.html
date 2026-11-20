@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-adsense-account" content="ca-pub-3489056283386453">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3489056283386453" crossorigin="anonymous"></script>
+<title>StudyLingo – Quizzes for Class 1–12 and Competitive Exams</title>
+<meta name="description" content="StudyLingo is a free educational quiz portal for Indian school classes 1–12 and competitive exams, founded by Shahjad Ali.">
+<style>
+:root{--bg:#f3f6ff;--card:#fff;--ink:#16203a;--mut:#5d6985;--line:#dde3f5;--brand:#3552e0;--soft:#e8ecff;--gold:#f6b81a;--ok:#1f9d6b;--bad:#e0483b;--r:18px;--on:#fff;--f:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--h:"Trebuchet MS",var(--f)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--f)}
+h1,h2,h3{font-family:var(--h);margin:0 0 .5rem;line-height:1.2}button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px}.mut{color:var(--mut)}.sm{font-size:.875rem}
+header{position:sticky;top:0;z-index:20;background:var(--card);box-shadow:0 1px 0 var(--line)}
+.nav{max-width:1200px;margin:auto;padding:.6rem 1rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.logo{font:800 1.35rem var(--h);color:var(--brand);margin-right:auto}.logo small{display:block;font:500 .7rem var(--f);color:var(--mut)}
+.coin{background:var(--gold);color:#4a3200;font-weight:700;padding:.35rem .9rem;border-radius:99px}
+.btn{border:2px solid var(--line);background:var(--card);color:var(--ink);padding:.6rem 1.1rem;border-radius:12px;font-weight:600}
+.btn.p{background:var(--brand);border-color:var(--brand);color:var(--on)}.btn:disabled{opacity:.55;cursor:not-allowed}
+main{max-width:1200px;margin:auto;padding:1.25rem 1rem;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:1.25rem;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.25rem;margin-bottom:1.25rem}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.6rem;margin:1rem 0}
+.chips button{padding:.9rem;border:2px solid var(--line);background:var(--card);border-radius:14px;font-weight:600}.chips button:hover{border-color:var(--brand);background:var(--soft)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap}
+.chip{background:var(--soft);color:var(--brand);font-weight:600;padding:.2rem .7rem;border-radius:99px;font-size:.875rem}
+.bar{height:8px;background:var(--line);border-radius:9px;overflow:hidden;margin:.7rem 0 .3rem}.bar i{display:block;height:100%;background:var(--brand);transition:width .4s}
+.opts{display:grid;gap:.6rem;margin:1rem 0}.opts button{text-align:left;padding:.85rem 1rem;border:2px solid var(--line);background:var(--card);border-radius:12px;color:var(--ink)}
+.opts button:hover:not(:disabled){border-color:var(--brand)}.opts .ok{border-color:var(--ok);background:rgba(31,157,107,.16)}.opts .no{border-color:var(--bad);background:rgba(224,72,59,.14)}
+.note{background:var(--soft);border-radius:12px;padding:.8rem 1rem;margin:.5rem 0}.row{display:flex;justify-content:space-between;gap:.6rem;flex-wrap:wrap;margin-top:1rem}
+.art{height:190px;overflow-y:auto;border:1px solid var(--line);border-radius:12px;padding:1rem;margin:.8rem 0}
+.side .card{margin-bottom:1.25rem}.lb{list-style:none;padding:0;margin:0}.lb li{display:flex;gap:.6rem;align-items:center;padding:.4rem 0;border-bottom:1px solid var(--line)}.lb b{margin-left:auto}
+.rk{width:26px;height:26px;border-radius:50%;background:var(--line);display:grid;place-items:center;font-size:.8rem;font-weight:700;flex:none}.lb li:first-child .rk{background:var(--gold)}
+.ad{margin:1.25rem 0;min-height:100px;border:1px dashed var(--line);border-radius:12px;background:var(--card);display:grid;place-items:center;color:var(--mut);font-size:.8rem;text-align:center;padding:.5rem}
+.badge{display:inline-block;background:rgba(31,157,107,.16);color:var(--ok);font-weight:700;font-size:.8rem;padding:.2rem .6rem;border-radius:99px}
+.days{display:flex;gap:.35rem;margin:.6rem 0}.days span{flex:1;text-align:center;padding:.4rem 0;border-radius:8px;background:var(--line);font-size:.8rem;font-weight:600}.days .on{background:var(--gold);color:#4a3200}
+input,select,textarea{width:100%;font:inherit;padding:.6rem .75rem;border:2px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin:.25rem 0 .6rem}
+label{font-weight:600;font-size:.875rem}.g2{display:grid;grid-template-columns:1fr 1fr;gap:0 .75rem}
+footer{border-top:1px solid var(--line);background:var(--card);margin-top:1rem}.foot{max-width:1200px;margin:auto;padding:1.25rem 1rem;display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between;color:var(--mut);font-size:.9rem}
+.foot nav{display:flex;gap:1rem;flex-wrap:wrap}.foot button{background:none;border:0;color:inherit;padding:0;text-decoration:underline}
+.ov{position:fixed;inset:0;background:rgba(10,16,35,.6);z-index:50;display:grid;place-items:center;padding:1rem}.ov[hidden]{display:none}
+.md{background:var(--card);border-radius:var(--r);max-width:680px;width:100%;max-height:88vh;overflow-y:auto;padding:1.5rem;position:relative}
+.x{position:absolute;right:.8rem;top:.6rem;background:none;border:0;font-size:1.6rem;color:var(--mut)}
+#toast{position:fixed;left:50%;bottom:1.2rem;transform:translateX(-50%);background:#14213d;color:#fff;padding:.7rem 1.1rem;border-radius:12px;z-index:60;max-width:90%;display:none}
+@media(max-width:900px){main{grid-template-columns:1fr}}@media(max-width:520px){.g2{grid-template-columns:1fr}}
+
+:root[data-theme=dark]{--bg:#0e1424;--card:#18203a;--ink:#eaf0ff;--mut:#a1adcc;--line:#2a3558;--brand:#7b93ff;--soft:#232d54;--on:#0e1424;color-scheme:dark}
+:root[data-theme=green]{--bg:#eefaf3;--soft:#dcf4e7;--brand:#14805a;--line:#cfe8da}
+.ib{width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:1.2rem}
+.scrim{position:fixed;inset:0;background:rgba(10,16,35,.5);border:0;opacity:0;pointer-events:none;transition:opacity .2s;z-index:30}
+.drawer{position:fixed;top:0;left:0;bottom:0;width:min(320px,86vw);background:var(--card);z-index:31;transform:translateX(-100%);transition:transform .25s;padding:1.25rem;display:flex;flex-direction:column;gap:1rem;overflow-y:auto}
+body.menu .drawer{transform:none}body.menu .scrim{opacity:1;pointer-events:auto}
+.prof{display:flex;gap:.8rem;align-items:center}.prof>div:last-child{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.av{width:48px;height:48px;border-radius:50%;background:var(--brand);color:var(--on);display:grid;place-items:center;font-weight:700;overflow:hidden;flex:none}.av img{width:100%;height:100%;object-fit:cover}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem}.stats div{background:var(--soft);border-radius:12px;padding:.6rem;text-align:center}.stats b{display:block;font:700 1.2rem var(--h)}.stats span{font-size:.8rem;color:var(--mut)}
+.mnav{display:grid;gap:.15rem}.mnav button{text-align:left;background:none;border:0;padding:.7rem .8rem;border-radius:10px;color:var(--ink);font-weight:600}.mnav button:hover,.mnav button.on{background:var(--soft);color:var(--brand)}
+.th div{display:flex;gap:.4rem;margin-top:.4rem}.th button{flex:1;padding:.5rem;border:2px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-weight:600}
+:root[data-theme=light] [data-th=light],:root[data-theme=dark] [data-th=dark],:root[data-theme=green] [data-th=green]{border-color:var(--brand)!important}
+.lnk{background:none;border:0;padding:0;color:var(--brand);text-decoration:underline;font:inherit}
+body:not(.authed) main,body:not(.authed) .ad:not(.land),body:not(.authed) .coin,body:not(.authed) .ib,body.authed .land,body.authed #landing{display:none}
+
+.wrap{max-width:1000px;margin:0 auto;padding:1.5rem 1rem}.wrap h2{font-size:1.6rem;margin-bottom:1rem}
+.hero{max-width:760px;margin:0 auto;padding:2.5rem 1rem 1rem;text-align:center}.hero h1{font-size:clamp(2rem,6vw,3rem)}.big{padding:.85rem 1.6rem;font-size:1.1rem;margin:.6rem 0}
+.demo{position:relative;height:250px;border-radius:var(--r);background:var(--soft);border:1px solid var(--line);overflow:hidden}
+.scene{position:absolute;inset:0;display:grid;place-content:center;gap:.5rem;text-align:center;padding:1rem 1rem 1.6rem;opacity:0;animation:sc 20s infinite;animation-delay:calc(var(--i)*5s)}
+.scene b{font:700 1.3rem var(--h)}.scene em{font-style:normal;font-size:2.4rem}
+.mock{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.6rem 1rem;text-align:left;font-size:.9rem;margin:0 auto;max-width:320px}.mock .g{color:var(--ok);font-weight:700}
+.pb{position:absolute;left:0;right:0;bottom:0;height:5px;background:var(--line)}.pb i{display:block;height:100%;background:var(--brand);animation:pb 20s linear infinite}
+@keyframes sc{0%{opacity:0;transform:translateY(10px)}4%,22%{opacity:1;transform:none}26%,100%{opacity:0}}@keyframes pb{from{width:0}to{width:100%}}
+@media(prefers-reduced-motion:reduce){.demo{height:auto}.scene{position:static;opacity:1;animation:none}.pb{display:none}}
+.feat{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}.feat .card{margin:0}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;margin-bottom:.6rem}summary{cursor:pointer;font-weight:600}
+.top{display:flex;gap:1rem}.top a{color:var(--mut);text-decoration:none;font-weight:600}.top a:hover{color:var(--brand)}@media(max-width:700px){.top{display:none}}body.authed .top,body.authed #hin{display:none}
+.av{font-size:1.6rem}.avp{display:flex;flex-wrap:wrap;gap:.4rem;margin:.4rem 0 .8rem}.avp button{font-size:1.5rem;width:46px;height:46px;border-radius:12px;border:2px solid var(--line);background:var(--card)}.avp .on{border-color:var(--brand);background:var(--soft)}
+</style>
+</head>
+<body>
+<header><div class="nav">
+  <button class="ib" data-a="menu" aria-label="Open menu">☰</button>
+  <div class="logo">StudyLingo<small>Founded by Shahjad Ali</small></div>
+  <nav class="top"><a href="#how">How it works</a><a href="#notes">Study notes</a><a href="#faq">FAQ</a></nav>
+  <span class="coin" title="Points">⭐ <span id="coins">0</span></span>
+  <button class="btn p" id="hin" data-a="in">Sign in</button>
+</div></header>
+<button class="scrim" data-a="menu" aria-label="Close menu"></button>
+<aside class="drawer" aria-label="Menu">
+  <div class="prof"><div class="av" id="pav"></div><div><b id="pn"></b><div class="mut sm" id="pe"></div></div></div>
+  <div class="stats"><div><b id="pc">0</b><span>points</span></div><div><b id="pt">0</b><span>studied</span></div><div><b id="ps">0</b><span>day streak</span></div></div>
+  <nav class="mnav">
+    <button data-v="home" class="on">🏠 Home</button><button data-v="daily">🎯 Daily challenge</button><button data-v="notes">📖 Read &amp; Earn</button><button data-v="group">👥 My group</button><button data-v="wallet">📈 My progress</button>
+    <button data-m="about">About Us</button><button data-m="privacy">Privacy Policy</button><button data-m="terms">Terms &amp; Conditions</button><button data-m="contact">Contact Us</button>
+  </nav>
+  <div class="th"><span class="mut sm">Theme</span><div><button data-th="light">Light</button><button data-th="dark">Dark</button><button data-th="green">Green</button></div></div>
+  <button class="btn" id="adm" data-a="admin" hidden>Admin Panel ⚙️</button>
+  <button class="btn" data-a="out" style="margin-top:auto">Sign out</button>
+</aside>
+<div id="landing">
+<section class="hero"><h1>Learn every day. Answer. Climb the leaderboard.</h1>
+  <p class="mut">StudyLingo is a free quiz portal for Class 1–12 and competitive exams, in Hindi and English. Practise daily, build a streak and climb the leaderboard.</p>
+  <button class="btn p big" data-a="in">Sign in with Google to start</button>
+  <p class="sm mut">Points are for fun and for the leaderboard. They have no cash value.</p></section>
+<div class="ad land" data-slot="LANDING_SLOT_1" style="max-width:1000px;margin:1rem auto">Advertisement</div>
+<section class="wrap" id="how"><h2>How StudyLingo works</h2>
+  <div class="demo" role="img" aria-label="Animated walkthrough: sign in, pick class and subject, answer questions, climb the leaderboard">
+    <div class="scene" style="--i:0"><em>🔐</em><b>1. Sign in with Google</b><span class="mut">One tap. No password to remember.</span></div>
+    <div class="scene" style="--i:1"><em>🎯</em><b>2. Pick language, class and subject</b><span class="mut">Hindi or English · Class 1–12 · Competitive exams</span></div>
+    <div class="scene" style="--i:2"><div class="mock"><b style="font-size:1rem">Which part of a plant makes food?</b><br>A. Root<br><span class="g">B. Leaf ✔ +10 points</span><br>C. Stem</div><span class="mut">Answer, read the explanation and earn coins.</span></div>
+    <div class="scene" style="--i:3"><em>🏆</em><b>4. Collect points, climb the leaderboard</b><span class="mut">The more you study, the higher you rank. Earn badges for streaks and study time.</span></div>
+    <div class="pb"><i></i></div></div></section>
+<section class="wrap"><h2>What you get</h2><div class="feat">
+  <div class="card"><h3>Class 1–12 and competitive exams</h3><p class="mut sm">History, Constitution, Geography, Maths, Science, Hindi, English, Computer and GK, or a mixed set of everything.</p></div>
+  <div class="card"><h3>Hindi and English</h3><p class="mut sm">Choose your language first and study in the one you like best.</p></div>
+  <div class="card"><h3>Learn from every answer</h3><p class="mut sm">Each question comes with a short explanation so you understand why.</p></div>
+  <div class="card"><h3>Read &amp; Earn notes</h3><p class="mut sm">Read a study note for 45 seconds and earn 15 points.</p></div>
+  <div class="card"><h3>7-day streak</h3><p class="mut sm">Come back daily for a growing bonus of up to 50 points.</p></div><div class="card"><h3>Daily challenge</h3><p class="mut sm">Ten new questions every day, 5 seconds each, the same for everyone. Share your score with friends.</p></div><div class="card"><h3>Study groups</h3><p class="mut sm">Make a private leaderboard for your class or friends with a group code.</p></div>
+  <div class="card"><h3>Leaderboard and badges</h3><p class="mut sm">Earn points, build your study time and climb the Top 10.</p></div></div></section>
+<section class="wrap" id="notes"><h2>Free study notes</h2><div id="pubnotes"></div><p class="mut sm">Sign in to earn points for reading these in Read &amp; Earn.</p></section>
+<section class="wrap" id="faq"><h2>Frequently asked questions</h2>
+  <details><summary>Is StudyLingo free?</summary><p class="mut">Yes, StudyLingo is free to use.</p></details>
+  <details><summary>How do I earn points?</summary><p class="mut">By answering quiz questions correctly, reading study notes and logging in on consecutive days. Points are never given for viewing or clicking ads.</p></details>
+  <details><summary>Do points have any cash value?</summary><p class="mut">No. Points are for learning, badges and the leaderboard. They cannot be exchanged for money.</p></details>
+  <details><summary>Why do I need to sign in?</summary><p class="mut">So your points, streak and progress are saved safely to your own account. Questions are only visible after sign-in.</p></details>
+  <details><summary>Will others see my real name?</summary><p class="mut">No. You choose a nickname and an avatar, and only those are shown on leaderboards.</p></details>
+  <details><summary>Who runs StudyLingo?</summary><p class="mut">StudyLingo was founded by Shahjad Ali, a developer and tech enthusiast. See About Us and Contact Us in the footer.</p></details></section>
+<section class="wrap" style="text-align:center"><button class="btn p big" data-a="in">Sign in with Google to start</button></section>
+</div>
+<div class="ad" data-slot="TOP_BANNER_SLOT_ID" style="max-width:1200px;margin:1rem auto 0">Advertisement</div>
+
+<main>
+  <section>
+    <div id="view"></div>
+    <!-- Advertisement: paste your AdSense unit inside this box. Keep it separate from buttons. -->
+    <div class="ad" data-slot="CONTENT_SLOT_ID">Advertisement</div>
+  </section>
+  <aside class="side">
+    <div class="card"><h3>Top 10 leaderboard</h3><p class="mut sm" style="margin:0 0 .5rem">Ranked by points. Study more to climb.</p><ol class="lb" id="lb"><li class="mut">Loading…</li></ol></div>
+    <div class="ad" data-slot="SIDEBAR_SLOT_ID_1">Advertisement</div>
+    <div class="card"><h3>About the founder</h3>
+      <p style="margin:.2rem 0"><b>Shahjad Ali</b><br><span class="mut sm">Developer, Coder &amp; Tech Enthusiast</span></p>
+      <p class="sm">Shahjad built StudyLingo to make daily practice free and rewarding for students across India.</p>
+      <span class="badge">✔ Verified Educational Portal</span>
+      <!-- Replace https://instagram.com with https://instagram.com/YOUR_USERNAME -->
+      <p><a class="btn p" style="display:inline-block;text-decoration:none;margin-top:.6rem" href="https://instagram.com" target="_blank" rel="noopener">Follow on Instagram</a></p>
+    </div>
+    <div class="ad" data-slot="SIDEBAR_SLOT_ID_2">Advertisement</div>
+  </aside>
+</main>
+<div class="ad" data-slot="BOTTOM_SLOT_ID" style="max-width:1200px;margin:0 auto 1rem">Advertisement</div>
+
+<footer><div class="foot">
+  <span>© 2026 StudyLingo. Founded by Shahjad Ali.</span>
+  <nav><button data-m="about">About Us</button><button data-m="privacy">Privacy Policy</button><button data-m="terms">Terms &amp; Conditions</button><button data-m="contact">Contact Us</button></nav>
+</div></footer>
+
+<div class="ov" id="ov" hidden><div class="md" role="dialog" aria-modal="true" aria-labelledby="mt"><button class="x" data-a="close" aria-label="Close">×</button><h2 id="mt"></h2><div id="mb"></div></div></div>
+<div id="toast" role="status"></div>
+
+<script type="module">
+// NOTE: Firebase JS SDK 13.4.0 is not released yet; 13.1.0 is the latest. Bump the version below once newer builds exist.
+import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
+import { getFirestore, Timestamp, serverTimestamp, doc, getDoc, setDoc, updateDoc, increment, collection, addDoc, getDocs, query, orderBy, limit, where } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCIVgkL44b9y5UDTt72ROI3T1q-HvuCn9U",
+  authDomain: "studylingo-5b121.firebaseapp.com",
+  projectId: "studylingo-5b121",
+  storageBucket: "studylingo-5b121.firebasestorage.app",
+  messagingSenderId: "113514898429",
+  appId: "1:113514898429:web:4b86622e4e59cfd0b26f94",
+  measurementId: "G-M6SRWTRP6Q"
+};
+const app = initializeApp(firebaseConfig), auth = getAuth(app), db = getFirestore(app), provider = new GoogleAuthProvider();
+
+/* ---------- AdSense: paste your publisher ID, then replace each data-slot="..." in the HTML with a real ad unit ID ---------- */
+const ADSENSE = "ca-pub-3489056283386453"; // example: "ca-pub-1234567890123456"
+if (ADSENSE && !document.querySelector('meta[name="google-adsense-account"]')) { const m = document.createElement("meta"); m.name = "google-adsense-account"; m.content = ADSENSE; document.head.appendChild(m); } // lets AdSense verify the site
+function loadAds(sel) {
+  if (!ADSENSE) return;
+  if (!loadAds.s) { loadAds.s = 1; if (!document.querySelector('script[src*="adsbygoogle.js"]')) { const sc = document.createElement("script"); sc.async = true; sc.crossOrigin = "anonymous"; sc.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + ADSENSE; document.head.appendChild(sc); } }
+  document.querySelectorAll(sel + "[data-slot]:not([data-on])").forEach(b => {
+    if (!/^\d{6,}$/.test(b.dataset.slot)) return; // skip placeholders until real ad unit IDs are added
+    b.dataset.on = 1; b.innerHTML = `<ins class="adsbygoogle" style="display:block;width:100%" data-ad-client="${ADSENSE}" data-ad-slot="${b.dataset.slot}" data-ad-format="auto" data-full-width-responsive="true"></ins>`;
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  });
+}
+
+/* ---------- constants & helpers ---------- */
+const ADMIN = "baljahan64@gmail.com", CAP = Infinity, MINW = 50000, REW = [10, 15, 25], LV = ["Easy", "Medium", "Hard"], API = ["easy", "medium", "hard"];
+const STREAK = [10, 15, 20, 25, 30, 40, 50];
+const BASIC = ["English", "Hindi", "Math", "EVS", "GK", "Mixed"], FULL = ["History", "Civics", "Geography", "Math", "Science", "English", "Hindi", "Computer & GK", "Mixed"];
+const LBL = { Civics: "Constitution & Civics", Mixed: "Mixed (all subjects)" };
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+/* Question files: put JSON files in the "q" folder (or point QBASE to GitHub Pages, ending with a slash). File name: lang_Subject.json, e.g. en_Science.json, hi_Computer-GK.json */
+const QBASE = "q/";
+let fileQ = [];
+async function loadFile(lg, sj) {
+  try {
+    const nm = `${lg}_${sj.replace(/[^A-Za-z]+/g, "-")}.json`; let r = await fetch(QBASE + nm); if (!r.ok && QBASE) r = await fetch(nm); /* also works with all files in one flat folder */ if (!r.ok) return [];
+    return (await r.json()).filter(x => x && x.q && Array.isArray(x.o) && x.o.length === 4 && x.a >= 0 && x.a < 4)
+      .map(x => ({ id: "f" + hash(x.q), l: lg, c: x.c || (x.cls ? [+x.cls, +x.cls] : [1, 13]), s: sj, d: +x.d || 0, q: x.q, o: x.o, a: +x.a, e: x.e || "" }));
+  } catch { return []; }
+}
+async function loadSet() {
+  const sj = S.subj, all = (S.cls <= 5 ? BASIC : FULL).filter(x => x !== "Mixed"), list = sj === "Mixed" ? shuffle([...all]).slice(0, 3) : [sj];
+  fileQ = (await Promise.all(list.map(x => loadFile(x === "Hindi" ? "hi" : x === "English" ? "en" : S.lang, x)))).flat();
+}
+const fmtT = t => { t = Math.floor(t || 0); const h = Math.floor(t / 3600), m = Math.floor(t % 3600 / 60); return h ? `${h}h ${m}m` : `${m}m`; };
+let pend = 0, lastAct = Date.now(); // seconds of real study waiting to be saved with the next write
+["click", "scroll", "keydown", "touchstart"].forEach(e => addEventListener(e, () => lastAct = Date.now(), { passive: true, capture: true }));
+setInterval(() => { if (user && document.visibilityState === "visible" && Date.now() - lastAct < 60000 && (curView === "notes" || curView === "daily" || (curView === "home" && S.step === "quiz"))) pend++; }, 1000);
+const paidKey = () => `sl-paid-${user ? user.uid : "x"}-${today()}`;
+const paidSet = () => { try { return new Set(JSON.parse(localStorage.getItem(paidKey()) || "[]")); } catch { return new Set(); } };
+const markPaid = id => { try { const q = paidSet(); q.add(id); localStorage.setItem(paidKey(), JSON.stringify([...q])); } catch { } }; // a question pays once per day
+const TL = [30, 40, 60]; // seconds per question: Easy, Medium, Hard
+function startTimer() {
+  clearInterval(S.qi); let t = TL[S.lv] || 30; $("qt").textContent = t;
+  S.qi = setInterval(() => { if (!$("qt")) return clearInterval(S.qi); t--; $("qt").textContent = t; if (t <= 0) { clearInterval(S.qi); answer(-1); } }, 1000);
+}
+const hash = t => { let h = 0; for (const c of t) h = (h * 31 + c.charCodeAt(0)) | 0; return (h >>> 0).toString(36); }; // same question text = same id, so it pays once per day
+const today = () => new Date(Date.now() + 19800000).toISOString().slice(0, 10); // IST date, same as the server
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0;[a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fmt = n => Number(n || 0).toLocaleString("en-IN");
+let user = null, ud = null, extra = [], S = { step: 1 }, tick = null, nt = null, curView = "home";
+function toast(t) { const e = $("toast"); e.textContent = t; e.style.display = "block"; clearTimeout(toast.h); toast.h = setTimeout(() => e.style.display = "none", 3500); }
+
+const setTheme = t => { document.documentElement.dataset.theme = t; try { localStorage.setItem("sl-theme", t); } catch { } };
+setTheme((() => { try { return localStorage.getItem("sl-theme"); } catch { } })() || "light");
+
+/* ---------- built-in question bank: [lang, classFrom, classTo, subject, difficulty(0-2), question, options, answerIndex, explanation] (class 13 = Competitive) ---------- */
+const B = [
+["en",1,5,"Math",0,"What is 7 + 5?",["10","11","12","13"],2,"Seven plus five makes twelve. Count on from 7: 8, 9, 10, 11, 12."],
+["en",1,5,"Math",1,"What is 8 × 6?",["42","46","48","54"],2,"8 × 6 = 48. Think of 8 × 5 = 40, then add one more 8."],
+["en",1,5,"Math",2,"What is 144 ÷ 12?",["10","12","14","16"],1,"12 × 12 = 144, so 144 ÷ 12 = 12."],
+["en",1,5,"EVS",0,"Which part of a plant makes food?",["Root","Leaf","Stem","Flower"],1,"Leaves contain chlorophyll and make food using sunlight."],
+["en",1,5,"EVS",1,"Which of these is a mammal?",["Frog","Shark","Bat","Eagle"],2,"Bats give birth to young ones and feed them milk, so they are mammals."],
+["en",1,5,"English",0,"Which word is a noun?",["Run","Delhi","Quickly","Blue"],1,"A noun names a person, place or thing. Delhi is a place."],
+["en",1,5,"English",1,"What is the plural of “child”?",["Childs","Childes","Children","Childrens"],2,"“Child” has an irregular plural: children."],
+["en",1,5,"GK",0,"What is the national animal of India?",["Lion","Tiger","Elephant","Peacock"],1,"The Bengal tiger is India’s national animal."],
+["en",1,5,"GK",1,"How many colours are in a rainbow?",["5","6","7","8"],2,"VIBGYOR: violet, indigo, blue, green, yellow, orange, red."],
+["en",1,5,"GK",2,"Which planet is called the Red Planet?",["Venus","Mars","Jupiter","Mercury"],1,"Iron oxide on the surface gives Mars its red colour."],
+["en",6,13,"History",0,"In which year did India gain independence?",["1942","1945","1947","1950"],2,"India became independent on 15 August 1947."],
+["en",6,13,"History",1,"The Battle of Plassey was fought in which year?",["1757","1764","1857","1699"],0,"Robert Clive defeated Siraj-ud-Daulah in 1757."],
+["en",6,13,"History",2,"Who founded the Maurya Empire?",["Ashoka","Bindusara","Chandragupta Maurya","Harshavardhana"],2,"Chandragupta Maurya founded the empire around 321 BCE with help from Chanakya."],
+["en",6,13,"Civics",0,"Who is known as the Father of the Indian Constitution?",["Mahatma Gandhi","Dr B. R. Ambedkar","Jawaharlal Nehru","Sardar Patel"],1,"Dr Ambedkar chaired the Drafting Committee."],
+["en",6,13,"Civics",1,"How many Fundamental Rights does the Constitution recognise today?",["Five","Six","Seven","Eight"],1,"Six: equality, freedom, against exploitation, religion, cultural and educational rights, and constitutional remedies."],
+["en",6,13,"Civics",2,"Article 21 of the Constitution protects which right?",["Equality","Free speech","Life and personal liberty","Property"],2,"Article 21 guarantees protection of life and personal liberty."],
+["en",6,13,"Geography",0,"Which is the longest river in India?",["Yamuna","Ganga","Godavari","Narmada"],1,"The Ganga flows about 2,525 km."],
+["en",6,13,"Geography",1,"Which is the largest Indian state by area?",["Madhya Pradesh","Maharashtra","Rajasthan","Uttar Pradesh"],2,"Rajasthan covers about 342,000 sq km."],
+["en",6,13,"Geography",2,"The Tropic of Cancer passes through how many Indian states?",["6","7","8","9"],2,"It crosses eight states, from Gujarat to Mizoram."],
+["en",6,13,"Math",0,"What is the sum of the angles of a triangle?",["90°","180°","270°","360°"],1,"The three angles of any triangle add up to 180°."],
+["en",6,13,"Math",1,"Solve: 2x + 6 = 14",["x = 3","x = 4","x = 5","x = 8"],1,"2x = 8, so x = 4."],
+["en",6,13,"Math",2,"What is the derivative of x²?",["x","2x","x²","2"],1,"By the power rule, d/dx of x² is 2x."],
+["en",6,13,"Science",0,"What is the chemical formula of water?",["CO₂","H₂O","O₂","NaCl"],1,"Two hydrogen atoms and one oxygen atom make H₂O."],
+["en",6,13,"Science",1,"What is the SI unit of force?",["Joule","Watt","Newton","Pascal"],2,"Force is measured in newtons (N)."],
+["en",6,13,"Science",2,"What is the atomic number of carbon?",["4","6","8","12"],1,"Carbon has 6 protons, so its atomic number is 6."],
+["en",6,13,"Grammar",0,"Choose the correct word: She ___ to school every day.",["go","goes","going","gone"],1,"A singular subject in the simple present takes “goes”."],
+["en",6,13,"Grammar",1,"What is the antonym of “ancient”?",["Old","Modern","Historic","Antique"],1,"Ancient means very old; its opposite is modern."],
+["en",6,13,"Grammar",2,"Passive voice of “She wrote a letter.”",["A letter is written by her.","A letter was written by her.","A letter had written her.","She was written a letter."],1,"Simple past active becomes “was/were + past participle”."],
+["en",6,13,"Computer & GK",0,"What does CPU stand for?",["Central Processing Unit","Computer Personal Unit","Central Program Utility","Control Processing Unit"],0,"The CPU is the main processor of a computer."],
+["en",6,13,"Computer & GK",1,"Who is called the Father of the Computer?",["Alan Turing","Charles Babbage","Bill Gates","Tim Berners-Lee"],1,"Charles Babbage designed the Analytical Engine."],
+["en",6,13,"Computer & GK",2,"What is the binary form of decimal 5?",["100","101","110","111"],1,"5 = 4 + 1, which is 101 in binary."],
+["hi",1,5,"Math",0,"5 + 3 कितना होता है?",["7","8","9","10"],1,"पाँच और तीन जोड़ने पर आठ मिलते हैं।"],
+["hi",1,5,"Hindi",0,"इनमें से कौन सा फल है?",["गाजर","आम","आलू","प्याज"],1,"आम एक फल है, बाकी सब्ज़ियाँ हैं।"],
+["hi",1,5,"GK",0,"भारत की राजधानी क्या है?",["मुंबई","कोलकाता","नई दिल्ली","चेन्नई"],2,"भारत की राजधानी नई दिल्ली है।"],
+["hi",6,13,"Math",1,"त्रिभुज के तीनों कोणों का योग कितना होता है?",["90°","180°","270°","360°"],1,"किसी भी त्रिभुज के तीनों कोणों का योग 180° होता है।"],
+["hi",6,13,"Science",0,"पौधे अपना भोजन किस क्रिया से बनाते हैं?",["श्वसन","प्रकाश संश्लेषण","वाष्पोत्सर्जन","अंकुरण"],1,"पौधे सूर्य के प्रकाश से प्रकाश संश्लेषण द्वारा भोजन बनाते हैं।"],
+["hi",6,13,"Science",1,"मानव शरीर की सबसे लंबी हड्डी कौन सी है?",["फीमर (जांघ की हड्डी)","ह्यूमरस","टिबिया","रीढ़"],0,"जांघ की हड्डी (फीमर) सबसे लंबी और मजबूत होती है।"],
+["hi",6,13,"History",0,"भारत कब स्वतंत्र हुआ?",["1942","1945","1947","1950"],2,"भारत 15 अगस्त 1947 को स्वतंत्र हुआ।"],
+["hi",6,13,"Civics",0,"भारतीय संविधान के जनक किसे कहा जाता है?",["महात्मा गांधी","डॉ. भीमराव अंबेडकर","पं. नेहरू","सरदार पटेल"],1,"डॉ. अंबेडकर प्रारूप समिति के अध्यक्ष थे।"],
+["hi",6,13,"Civics",1,"भारतीय संविधान में कितने मौलिक अधिकार हैं?",["पाँच","छह","सात","आठ"],1,"वर्तमान में छह मौलिक अधिकार हैं।"],
+["hi",6,13,"Geography",0,"भारत की सबसे लंबी नदी कौन सी है?",["यमुना","गंगा","गोदावरी","नर्मदा"],1,"गंगा भारत की सबसे लंबी नदी है।"],
+["hi",6,13,"Grammar",0,"इनमें से कौन सा शब्द संज्ञा है?",["दौड़ना","दिल्ली","सुंदर","तेज़"],1,"किसी स्थान, व्यक्ति या वस्तु के नाम को संज्ञा कहते हैं।"],
+["hi",6,13,"Grammar",1,"“सूर्य” का पर्यायवाची शब्द कौन सा है?",["रवि","चंद्र","तारा","मेघ"],0,"रवि, दिनकर, भानु सूर्य के पर्यायवाची हैं।"],
+["hi",6,13,"Computer & GK",0,"कंप्यूटर का “दिमाग” किसे कहा जाता है?",["मॉनिटर","CPU","माउस","कीबोर्ड"],1,"CPU सभी निर्देशों को प्रोसेस करता है।"],
+["hi",1,5,"Hindi",1,"“पुस्तक” का बहुवचन क्या होगा?",["पुस्तकें","पुस्तकों","पुस्तकाएँ","पुस्तकी"],0,"पुस्तक का बहुवचन पुस्तकें होता है।"],
+["hi",1,5,"Hindi",2,"“अंधकार” का विलोम शब्द कौन सा है?",["प्रकाश","रात","छाया","धुआँ"],0,"अंधकार का उलटा प्रकाश है।"],
+["hi",1,5,"Math",1,"12 × 3 कितना होता है?",["34","36","38","40"],1,"12 को तीन बार जोड़ने पर 36 मिलता है।"],
+["hi",1,5,"Math",2,"15 × 15 कितना होता है?",["215","225","235","250"],1,"15 × 15 = 225।"],
+["hi",1,5,"EVS",0,"साँस लेने के लिए हमें किस गैस की ज़रूरत होती है?",["नाइट्रोजन","ऑक्सीजन","कार्बन डाइऑक्साइड","हाइड्रोजन"],1,"हम साँस में ऑक्सीजन लेते हैं।"],
+["hi",1,5,"EVS",1,"इनमें से कौन सा जानवर अंडे देता है?",["गाय","मुर्गी","बकरी","कुत्ता"],1,"मुर्गी अंडे देती है, बाकी बच्चे को जन्म देते हैं।"],
+["hi",1,5,"EVS",2,"पौधे की जड़ का मुख्य काम क्या है?",["भोजन बनाना","पानी सोखना और पौधे को थामना","फूल देना","साँस छोड़ना"],1,"जड़ें मिट्टी से पानी और खनिज सोखती हैं और पौधे को पकड़कर रखती हैं।"],
+["hi",1,5,"GK",1,"भारत का राष्ट्रीय पक्षी कौन सा है?",["मोर","कबूतर","तोता","चील"],0,"मोर भारत का राष्ट्रीय पक्षी है।"],
+["hi",1,5,"GK",2,"भारत का राष्ट्रीय गीत कौन सा है?",["जन गण मन","वंदे मातरम्","सारे जहाँ से अच्छा","वैष्णव जन तो"],1,"राष्ट्रगान जन गण मन है और राष्ट्रीय गीत वंदे मातरम् है।"],
+["hi",6,13,"Math",0,"100 का 10% कितना होता है?",["1","10","20","100"],1,"100 का दसवाँ हिस्सा 10 होता है।"],
+["hi",6,13,"Math",1,"2x + 6 = 14 में x का मान क्या है?",["3","4","5","8"],1,"2x = 8, इसलिए x = 4।"],
+["hi",6,13,"Math",2,"x² − 9 के गुणनखंड क्या हैं?",["(x−3)(x+3)","(x−9)(x+1)","(x−3)²","(x+3)²"],0,"a² − b² = (a−b)(a+b) सूत्र से (x−3)(x+3) मिलता है।"],
+["hi",6,13,"Science",2,"प्रकाश की चाल निर्वात में लगभग कितनी होती है?",["3 × 10⁸ मी/से","3 × 10⁶ मी/से","3 × 10⁵ मी/से","3 × 10¹⁰ मी/से"],0,"प्रकाश की चाल लगभग 3 × 10⁸ मीटर प्रति सेकंड है।"],
+["hi",6,13,"History",1,"प्लासी का युद्ध किस वर्ष लड़ा गया?",["1757","1764","1857","1699"],0,"1757 में रॉबर्ट क्लाइव ने सिराजुद्दौला को हराया।"],
+["hi",6,13,"History",2,"मौर्य साम्राज्य की स्थापना किसने की?",["अशोक","बिंदुसार","चंद्रगुप्त मौर्य","हर्षवर्धन"],2,"चंद्रगुप्त मौर्य ने चाणक्य की मदद से लगभग 321 ई.पू. में साम्राज्य बनाया।"],
+["hi",6,13,"Civics",2,"संविधान का अनुच्छेद 21 किस अधिकार की रक्षा करता है?",["समानता","वाक् स्वतंत्रता","जीवन और दैहिक स्वतंत्रता","संपत्ति"],2,"अनुच्छेद 21 जीवन और दैहिक स्वतंत्रता की गारंटी देता है।"],
+["hi",6,13,"Geography",1,"क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?",["मध्य प्रदेश","महाराष्ट्र","राजस्थान","उत्तर प्रदेश"],2,"राजस्थान का क्षेत्रफल लगभग 3.42 लाख वर्ग किमी है।"],
+["hi",6,13,"Geography",2,"कर्क रेखा भारत के कितने राज्यों से होकर गुज़रती है?",["6","7","8","9"],2,"यह गुजरात से मिज़ोरम तक आठ राज्यों से गुज़रती है।"],
+["hi",6,13,"Grammar",2,"“नीलकंठ” शब्द में कौन सा समास है?",["तत्पुरुष","बहुव्रीहि","द्वंद्व","कर्मधारय"],1,"नीला है कंठ जिसका, यानी शिव। जब शब्द किसी तीसरे अर्थ को बताए तो बहुव्रीहि समास होता है।"],
+["hi",6,13,"Computer & GK",1,"भारत में ISRO का मुख्यालय कहाँ है?",["मुंबई","बेंगलुरु","हैदराबाद","चेन्नई"],1,"ISRO का मुख्यालय बेंगलुरु में है।"],
+["hi",6,13,"Computer & GK",2,"दशमलव संख्या 5 का बाइनरी रूप क्या है?",["100","101","110","111"],1,"5 = 4 + 1, यानी बाइनरी में 101।"],
+["en",1,5,"English",2,"Choose the correct sentence.",["She are playing.","She is playing.","She am playing.","She play playing."],1,"A singular subject “she” takes “is” with the -ing form."],
+["en",1,5,"EVS",2,"Which gas do we breathe out?",["Oxygen","Carbon dioxide","Nitrogen","Helium"],1,"Our bodies release carbon dioxide when we exhale."],
+["en",6,13,"History",0,"The Great Bath was found at which ancient site?",["Mohenjo-daro","Kalibangan","Lothal","Dholavira"],0,"The Great Bath is a well-known structure of the Harappan (Indus Valley) Civilisation at Mohenjo-daro."],
+["en",6,13,"History",0,"Who wrote the Arthashastra?",["Kautilya","Kalidasa","Banabhatta","Megasthenes"],0,"Kautilya, also known as Chanakya, wrote the Arthashastra on statecraft and economy."],
+["en",6,13,"History",1,"Which war made Ashoka turn towards Buddhism and dhamma?",["Kalinga War","Battle of Panipat","Battle of Plassey","Battle of Buxar"],0,"The bloodshed of the Kalinga War around 261 BCE deeply changed Ashoka."],
+["en",6,13,"History",1,"The Gupta period is often called the ___ of ancient India.",["Dark Age","Golden Age","Iron Age","Vedic Age"],1,"Art, science, literature and trade flourished under the Guptas."],
+["en",6,13,"History",1,"Who founded the Delhi Sultanate in 1206?",["Qutb-ud-din Aibak","Iltutmish","Balban","Alauddin Khilji"],0,"Aibak began the Mamluk (Slave) dynasty in 1206."],
+["en",6,13,"History",2,"The Revolt of 1857 began at which place?",["Meerut","Kanpur","Jhansi","Lucknow"],0,"Soldiers rose in Meerut on 10 May 1857 and marched to Delhi."],
+["en",6,13,"History",2,"Who was the first President of the Indian National Congress?",["W. C. Bonnerjee","Dadabhai Naoroji","G. K. Gokhale","S. N. Banerjee"],0,"W. C. Bonnerjee presided over the first session in Bombay in 1885."],
+["en",6,13,"History",2,"In which year did the French Revolution begin?",["1776","1789","1799","1815"],1,"The storming of the Bastille on 14 July 1789 marked its start."],
+["hi",6,13,"History",0,"‘विशाल स्नानागार’ कहाँ मिला है?",["हड़प्पा","मोहनजोदड़ो","लोथल","कालीबंगा"],1,"विशाल स्नानागार सिंधु घाटी सभ्यता के मोहनजोदड़ो में मिला है।"],
+["hi",6,13,"History",1,"कलिंग युद्ध ने किस सम्राट का जीवन बदल दिया?",["चंद्रगुप्त","अशोक","अकबर","हर्षवर्धन"],1,"युद्ध की भयंकर हिंसा देखकर अशोक ने बौद्ध धर्म अपनाया।"],
+["hi",6,13,"History",2,"1857 का विद्रोह कहाँ से शुरू हुआ?",["मेरठ","कानपुर","झाँसी","लखनऊ"],0,"10 मई 1857 को मेरठ से सैनिकों ने विद्रोह शुरू किया।"],
+["en",6,13,"English",0,"Choose the correct article: ___ umbrella is useful in the rain.",["A","An","The","No article"],1,"Umbrella starts with a vowel sound, so we use “an”."],
+["en",6,13,"English",1,"Choose the correct form: Neither of the boys ___ present.",["is","are","were","have been"],0,"“Neither” is singular, so it takes “is”."],
+["en",6,13,"English",1,"Identify the figure of speech: “The wind whispered through the trees.”",["Simile","Metaphor","Personification","Hyperbole"],2,"Giving a human action (whispering) to the wind is personification."],
+["en",6,13,"English",2,"What is the synonym of “benevolent”?",["Kind","Cruel","Careless","Lazy"],0,"Benevolent means well-meaning and kind."],
+["en",6,13,"English",2,"Choose the correctly spelt word.",["Accomodation","Accommodation","Acommodation","Acomodation"],1,"Accommodation has a double c and a double m."],
+["hi",6,13,"Hindi",0,"‘विद्यालय’ शब्द में कौन सी संधि है?",["दीर्घ संधि","गुण संधि","यण संधि","विसर्ग संधि"],0,"विद्या + आलय = विद्यालय, जहाँ आ + आ मिलकर आ बनता है। यह दीर्घ संधि है।"],
+["hi",6,13,"Hindi",0,"‘सीता गीत गाती है’ वाक्य में क्रिया कौन सी है?",["सीता","गीत","गाती है","है"],2,"जो शब्द काम के होने का बोध कराए, वह क्रिया है: गाती है।"],
+["hi",6,13,"Hindi",1,"‘पुस्तक’ का पर्यायवाची शब्द कौन सा है?",["ग्रंथ","पर्वत","नदी","वस्त्र"],0,"पुस्तक के पर्यायवाची: ग्रंथ, किताब।"],
+["hi",6,13,"Hindi",2,"‘जो कभी न मरे’ के लिए एक शब्द क्या होगा?",["अमर","नश्वर","अजर","अमरत्व"],0,"जो कभी न मरे उसे अमर कहते हैं; अजर का अर्थ है जो कभी बूढ़ा न हो।"],
+["hi",6,13,"Hindi",2,"‘आँखों का तारा’ मुहावरे का अर्थ क्या है?",["बहुत प्यारा","बहुत दूर","बहुत छोटा","बहुत चमकीला"],0,"आँखों का तारा यानी बहुत प्यारा व्यक्ति।"],
+["en", 6, 13, "Science", 0, "Which organ pumps blood around the human body?", ["Lungs", "Heart", "Liver", "Kidney"], 1, "The heart pumps blood through the blood vessels."],
+["en", 6, 13, "Science", 0, "Which gas do plants release during photosynthesis?", ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"], 1, "Plants give out oxygen as a by-product."],
+["en", 6, 13, "Science", 1, "Which vitamin does our skin make in sunlight?", ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"], 3, "Sunlight helps the skin produce vitamin D."],
+["en", 6, 13, "Science", 1, "Which mirror is used as a rear-view mirror in vehicles?", ["Concave", "Convex", "Plane", "Cylindrical"], 1, "A convex mirror shows a wider area behind the vehicle."],
+["en", 6, 13, "Science", 1, "Which gas is the most abundant in Earth’s atmosphere?", ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], 1, "Nitrogen makes up about 78 percent of air."],
+["en", 6, 13, "Science", 1, "What is the SI unit of electric current?", ["Volt", "Ampere", "Ohm", "Watt"], 1, "Current is measured in amperes."],
+["en", 6, 13, "Science", 2, "Which law relates voltage, current and resistance as V = IR?", ["Ohm’s law", "Newton’s law", "Boyle’s law", "Faraday’s law"], 0, "Ohm’s law states that V equals I times R."],
+["en", 6, 13, "Science", 2, "Which part of the eye controls how much light enters it?", ["Cornea", "Iris", "Retina", "Lens"], 1, "The iris changes the size of the pupil."],
+["hi", 6, 13, "Science", 0, "मानव शरीर में रक्त को पंप करने का काम कौन सा अंग करता है?", ["फेफड़े", "हृदय", "यकृत", "गुर्दा"], 1, "हृदय रक्त को पूरे शरीर में पहुँचाता है।"],
+["hi", 6, 13, "Science", 0, "प्रकाश संश्लेषण के दौरान पौधे कौन सी गैस छोड़ते हैं?", ["कार्बन डाइऑक्साइड", "ऑक्सीजन", "नाइट्रोजन", "हाइड्रोजन"], 1, "पौधे ऑक्सीजन बाहर निकालते हैं।"],
+["hi", 6, 13, "Science", 1, "धूप में हमारी त्वचा कौन सा विटामिन बनाती है?", ["विटामिन A", "विटामिन B12", "विटामिन C", "विटामिन D"], 3, "धूप से त्वचा विटामिन D बनाती है।"],
+["hi", 6, 13, "Science", 1, "वाहनों में पीछे का दृश्य देखने के लिए कौन सा दर्पण लगाया जाता है?", ["अवतल", "उत्तल", "समतल", "बेलनाकार"], 1, "उत्तल दर्पण से पीछे का बड़ा क्षेत्र दिखता है।"],
+["hi", 6, 13, "Science", 1, "वायुमंडल में सबसे अधिक मात्रा में कौन सी गैस है?", ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "आर्गन"], 1, "वायु में लगभग 78 प्रतिशत नाइट्रोजन है।"],
+["hi", 6, 13, "Science", 1, "विद्युत धारा का SI मात्रक क्या है?", ["वोल्ट", "ऐम्पियर", "ओम", "वाट"], 1, "धारा को ऐम्पियर में मापा जाता है।"],
+["hi", 6, 13, "Science", 2, "V = IR किस नियम को दर्शाता है?", ["ओम का नियम", "न्यूटन का नियम", "बॉयल का नियम", "फैराडे का नियम"], 0, "विभव, धारा और प्रतिरोध का संबंध ओम का नियम बताता है।"],
+["hi", 6, 13, "Science", 2, "आँख का कौन सा भाग प्रकाश की मात्रा को नियंत्रित करता है?", ["कॉर्निया", "आइरिस", "रेटिना", "लेंस"], 1, "आइरिस पुतली का आकार बदलकर प्रकाश नियंत्रित करती है।"],
+["en", 6, 13, "Geography", 0, "Which ocean lies to the south of India?", ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"], 1, "India’s southern tip touches the Indian Ocean."],
+["en", 6, 13, "Geography", 0, "Which is the largest continent by area?", ["Africa", "Asia", "Europe", "Australia"], 1, "Asia is the largest continent."],
+["en", 6, 13, "Geography", 1, "Which is the highest peak lying in India?", ["Mount Everest", "K2", "Kangchenjunga", "Nanda Devi"], 2, "Kangchenjunga, in Sikkim, is the highest peak in India."],
+["en", 6, 13, "Geography", 1, "The Deccan Plateau lies mainly in which part of India?", ["North", "South", "East", "North-East"], 1, "The Deccan Plateau covers much of peninsular South India."],
+["en", 6, 13, "Geography", 2, "Which strait separates India from Sri Lanka?", ["Palk Strait", "Strait of Malacca", "Bering Strait", "Strait of Hormuz"], 0, "The Palk Strait lies between Tamil Nadu and Sri Lanka."],
+["en", 6, 13, "Geography", 2, "Which Indian state has the longest coastline?", ["Gujarat", "Tamil Nadu", "Andhra Pradesh", "Maharashtra"], 0, "Gujarat has a coastline of about 1,600 km."],
+["hi", 6, 13, "Geography", 0, "भारत के दक्षिण में कौन सा महासागर है?", ["अटलांटिक", "हिंद महासागर", "प्रशांत", "आर्कटिक"], 1, "भारत का दक्षिणी सिरा हिंद महासागर को छूता है।"],
+["hi", 6, 13, "Geography", 0, "क्षेत्रफल की दृष्टि से सबसे बड़ा महाद्वीप कौन सा है?", ["अफ्रीका", "एशिया", "यूरोप", "ऑस्ट्रेलिया"], 1, "एशिया सबसे बड़ा महाद्वीप है।"],
+["hi", 6, 13, "Geography", 1, "भारत के भीतर स्थित सबसे ऊँची चोटी कौन सी है?", ["एवरेस्ट", "के2", "कंचनजंघा", "नंदा देवी"], 2, "सिक्किम की कंचनजंघा भारत की सबसे ऊँची चोटी है।"],
+["hi", 6, 13, "Geography", 1, "दक्कन का पठार मुख्यतः भारत के किस भाग में है?", ["उत्तर", "दक्षिण", "पूर्व", "पूर्वोत्तर"], 1, "दक्कन का पठार दक्षिण भारत में फैला है।"],
+["hi", 6, 13, "Geography", 2, "भारत और श्रीलंका को कौन सी जलसंधि अलग करती है?", ["पाक जलसंधि", "मलक्का जलसंधि", "बेरिंग जलसंधि", "होर्मुज़ जलसंधि"], 0, "पाक जलसंधि तमिलनाडु और श्रीलंका के बीच है।"],
+["hi", 6, 13, "Geography", 2, "भारत में सबसे लंबी तटरेखा वाला राज्य कौन सा है?", ["गुजरात", "तमिलनाडु", "आंध्र प्रदेश", "महाराष्ट्र"], 0, "गुजरात की तटरेखा लगभग 1,600 किमी है।"],
+["en", 6, 13, "Civics", 0, "Who is the head of state of India?", ["Prime Minister", "President", "Chief Justice", "Speaker"], 1, "The President is the constitutional head of state."],
+["en", 6, 13, "Civics", 0, "At what age can an Indian citizen vote in elections?", ["16", "18", "21", "25"], 1, "The voting age in India is 18."],
+["en", 6, 13, "Civics", 1, "Who appoints the Chief Justice of India?", ["Prime Minister", "President", "Parliament", "Law Minister"], 1, "The President appoints the Chief Justice of India."],
+["en", 6, 13, "Civics", 1, "How many elected members does the Lok Sabha have?", ["250", "543", "545", "552"], 1, "The Lok Sabha has 543 elected members."],
+["en", 6, 13, "Civics", 2, "Which article abolishes untouchability?", ["Article 15", "Article 17", "Article 21", "Article 32"], 1, "Article 17 abolishes untouchability."],
+["en", 6, 13, "Civics", 2, "The Preamble of the Constitution begins with which words?", ["We, the people of India", "In the name of God", "India, that is Bharat", "Justice, liberty"], 0, "It begins with “We, the people of India”."],
+["hi", 6, 13, "Civics", 0, "भारत का राष्ट्राध्यक्ष कौन होता है?", ["प्रधानमंत्री", "राष्ट्रपति", "मुख्य न्यायाधीश", "लोकसभा अध्यक्ष"], 1, "राष्ट्रपति देश के संवैधानिक प्रमुख हैं।"],
+["hi", 6, 13, "Civics", 0, "भारत में मतदान की न्यूनतम आयु क्या है?", ["16 वर्ष", "18 वर्ष", "21 वर्ष", "25 वर्ष"], 1, "मतदान की न्यूनतम आयु 18 वर्ष है।"],
+["hi", 6, 13, "Civics", 1, "भारत के मुख्य न्यायाधीश की नियुक्ति कौन करता है?", ["प्रधानमंत्री", "राष्ट्रपति", "संसद", "विधि मंत्री"], 1, "मुख्य न्यायाधीश की नियुक्ति राष्ट्रपति करते हैं।"],
+["hi", 6, 13, "Civics", 1, "लोकसभा में निर्वाचित सदस्यों की संख्या कितनी है?", ["250", "543", "545", "552"], 1, "लोकसभा में 543 निर्वाचित सदस्य होते हैं।"],
+["hi", 6, 13, "Civics", 2, "संविधान का कौन सा अनुच्छेद अस्पृश्यता का अंत करता है?", ["अनुच्छेद 15", "अनुच्छेद 17", "अनुच्छेद 21", "अनुच्छेद 32"], 1, "अनुच्छेद 17 अस्पृश्यता को समाप्त करता है।"],
+["hi", 6, 13, "Civics", 2, "संविधान की प्रस्तावना किन शब्दों से शुरू होती है?", ["हम, भारत के लोग", "ईश्वर के नाम पर", "भारत अर्थात इंडिया", "न्याय, स्वतंत्रता"], 0, "प्रस्तावना “हम, भारत के लोग” से शुरू होती है।"],
+["en", 6, 13, "Math", 0, "What is the LCM of 4 and 6?", ["10", "12", "24", "2"], 1, "The smallest number divisible by both 4 and 6 is 12."],
+["en", 6, 13, "Math", 0, "What is 15% of 200?", ["20", "25", "30", "35"], 2, "15 divided by 100, times 200, is 30."],
+["en", 6, 13, "Math", 1, "What is the area of a circle of radius 7 cm? (π = 22/7)", ["44 cm²", "154 cm²", "308 cm²", "22 cm²"], 1, "Area = πr² = 22/7 × 49 = 154."],
+["en", 6, 13, "Math", 1, "What is the value of 2³ × 2²?", ["16", "32", "64", "10"], 1, "Add the powers: 2⁵ = 32."],
+["en", 6, 13, "Math", 2, "What is the sum of the first 10 natural numbers?", ["45", "55", "50", "100"], 1, "n(n+1)/2 = 10 × 11 / 2 = 55."],
+["en", 6, 13, "Math", 2, "A triangle has sides 6, 8 and 10 cm. What kind of triangle is it?", ["Acute-angled", "Right-angled", "Obtuse-angled", "Equilateral"], 1, "6² + 8² = 10², so it is right-angled."],
+["hi", 6, 13, "Math", 0, "4 और 6 का ल.स. (LCM) क्या है?", ["10", "12", "24", "2"], 1, "4 और 6 दोनों से विभाजित होने वाली सबसे छोटी संख्या 12 है।"],
+["hi", 6, 13, "Math", 0, "200 का 15% कितना होता है?", ["20", "25", "30", "35"], 2, "200 × 15 / 100 = 30।"],
+["hi", 6, 13, "Math", 1, "7 सेमी त्रिज्या वाले वृत्त का क्षेत्रफल कितना है? (π = 22/7)", ["44 वर्ग सेमी", "154 वर्ग सेमी", "308 वर्ग सेमी", "22 वर्ग सेमी"], 1, "क्षेत्रफल = πr² = 22/7 × 49 = 154।"],
+["hi", 6, 13, "Math", 1, "2³ × 2² का मान क्या है?", ["16", "32", "64", "10"], 1, "घातें जोड़ने पर 2⁵ = 32।"],
+["hi", 6, 13, "Math", 2, "पहली 10 प्राकृत संख्याओं का योग कितना है?", ["45", "55", "50", "100"], 1, "n(n+1)/2 = 10 × 11 / 2 = 55।"],
+["hi", 6, 13, "Math", 2, "6, 8 और 10 सेमी भुजाओं वाला त्रिभुज कैसा होगा?", ["न्यूनकोण", "समकोण", "अधिककोण", "समबाहु"], 1, "6² + 8² = 10², इसलिए यह समकोण त्रिभुज है।"],
+["en", 6, 13, "Computer & GK", 0, "Which device is used to type text into a computer?", ["Mouse", "Keyboard", "Monitor", "Speaker"], 1, "A keyboard is the main input device for typing."],
+["en", 6, 13, "Computer & GK", 1, "What does WWW stand for?", ["World Wide Web", "World Web Window", "Wide World Wire", "Web World Wide"], 0, "WWW means World Wide Web."],
+["en", 6, 13, "Computer & GK", 1, "Who is known as the Missile Man of India?", ["Vikram Sarabhai", "A. P. J. Abdul Kalam", "Homi Bhabha", "C. V. Raman"], 1, "Dr Kalam led India’s missile development programmes."],
+["en", 6, 13, "Computer & GK", 2, "Which Indian space mission reached Mars orbit in 2014?", ["Chandrayaan-1", "Mangalyaan", "Aditya-L1", "Astrosat"], 1, "Mangalyaan (Mars Orbiter Mission) reached Mars orbit in September 2014."],
+["hi", 6, 13, "Computer & GK", 0, "कंप्यूटर में टेक्स्ट टाइप करने के लिए कौन सा उपकरण इस्तेमाल होता है?", ["माउस", "कीबोर्ड", "मॉनिटर", "स्पीकर"], 1, "टाइप करने के लिए कीबोर्ड मुख्य इनपुट उपकरण है।"],
+["hi", 6, 13, "Computer & GK", 1, "WWW का पूरा नाम क्या है?", ["वर्ल्ड वाइड वेब", "वर्ल्ड वेब विंडो", "वाइड वर्ल्ड वायर", "वेब वर्ल्ड वाइड"], 0, "WWW यानी वर्ल्ड वाइड वेब।"],
+["hi", 6, 13, "Computer & GK", 1, "भारत के ‘मिसाइल मैन’ किसे कहा जाता है?", ["विक्रम साराभाई", "ए. पी. जे. अब्दुल कलाम", "होमी भाभा", "सी. वी. रमन"], 1, "डॉ. कलाम ने भारत के मिसाइल कार्यक्रमों का नेतृत्व किया।"],
+["hi", 6, 13, "Computer & GK", 2, "2014 में मंगल की कक्षा में पहुँचने वाला भारतीय अभियान कौन सा था?", ["चंद्रयान-1", "मंगलयान", "आदित्य-एल1", "एस्ट्रोसैट"], 1, "मंगलयान सितंबर 2014 में मंगल की कक्षा में पहुँचा।"],
+["en", 1, 5, "Math", 0, "How many sides does a triangle have?", ["2", "3", "4", "5"], 1, "A triangle has three sides."],
+["en", 1, 5, "Math", 0, "What is half of 20?", ["5", "10", "15", "8"], 1, "20 divided by 2 is 10."],
+["en", 1, 5, "Math", 1, "What is 9 × 7?", ["56", "63", "72", "54"], 1, "9 × 7 = 63."],
+["en", 1, 5, "EVS", 0, "Which part of the body helps us to see?", ["Ear", "Eye", "Nose", "Tongue"], 1, "We see with our eyes."],
+["en", 1, 5, "EVS", 1, "Which season comes after summer in most of India?", ["Winter", "Spring", "Rainy season", "Autumn"], 2, "The monsoon or rainy season follows the summer."],
+["en", 1, 5, "English", 0, "Choose the opposite of “hot”.", ["Cold", "Warm", "Sun", "Fire"], 0, "Cold is the opposite of hot."],
+["en", 1, 5, "GK", 1, "Which is the largest animal living on land?", ["Horse", "Elephant", "Giraffe", "Rhino"], 1, "The African elephant is the largest land animal."],
+["hi", 1, 5, "Math", 0, "त्रिभुज की कितनी भुजाएँ होती हैं?", ["2", "3", "4", "5"], 1, "त्रिभुज की तीन भुजाएँ होती हैं।"],
+["hi", 1, 5, "Math", 1, "9 × 7 कितना होता है?", ["56", "63", "72", "54"], 1, "9 × 7 = 63।"],
+["hi", 1, 5, "EVS", 0, "देखने के लिए हम किस अंग का उपयोग करते हैं?", ["कान", "आँख", "नाक", "जीभ"], 1, "हम आँखों से देखते हैं।"],
+["hi", 1, 5, "Hindi", 0, "‘गर्म’ का विलोम शब्द कौन सा है?", ["ठंडा", "तपता", "सूरज", "आग"], 0, "गर्म का उलटा ठंडा होता है।"],
+["hi", 1, 5, "GK", 0, "एक सप्ताह में कितने दिन होते हैं?", ["5", "6", "7", "8"], 2, "सप्ताह में सात दिन होते हैं।"],
+["en", 13, 13, "Civics", 1, "Which Article allows the President to declare a National Emergency?", ["Article 352", "Article 356", "Article 360", "Article 370"], 0, "Article 352 deals with National Emergency."],
+["hi", 13, 13, "Civics", 1, "राष्ट्रपति को राष्ट्रीय आपातकाल घोषित करने का अधिकार किस अनुच्छेद से मिलता है?", ["अनुच्छेद 352", "अनुच्छेद 356", "अनुच्छेद 360", "अनुच्छेद 370"], 0, "राष्ट्रीय आपातकाल अनुच्छेद 352 में है।"],
+["en", 13, 13, "Civics", 0, "Who presents the Union Budget in Parliament?", ["President", "Finance Minister", "Speaker", "Chief Justice"], 1, "The Union Finance Minister presents the Budget."],
+["hi", 13, 13, "Civics", 0, "संसद में केंद्रीय बजट कौन प्रस्तुत करता है?", ["राष्ट्रपति", "वित्त मंत्री", "लोकसभा अध्यक्ष", "मुख्य न्यायाधीश"], 1, "केंद्रीय वित्त मंत्री बजट प्रस्तुत करते हैं।"],
+["en", 13, 13, "Civics", 2, "Which Schedule of the Constitution lists the recognised languages?", ["Sixth Schedule", "Seventh Schedule", "Eighth Schedule", "Tenth Schedule"], 2, "The Eighth Schedule lists the official languages."],
+["hi", 13, 13, "Civics", 2, "संविधान की कौन सी अनुसूची मान्यता प्राप्त भाषाओं की सूची देती है?", ["छठी अनुसूची", "सातवीं अनुसूची", "आठवीं अनुसूची", "दसवीं अनुसूची"], 2, "आठवीं अनुसूची में भाषाएँ दी गई हैं।"],
+["en", 13, 13, "History", 1, "Who gave the slogan “Jai Jawan Jai Kisan”?", ["Lal Bahadur Shastri", "Jawaharlal Nehru", "Sardar Patel", "Indira Gandhi"], 0, "Shastri gave this slogan in 1965."],
+["hi", 13, 13, "History", 1, "“जय जवान जय किसान” का नारा किसने दिया?", ["लाल बहादुर शास्त्री", "जवाहरलाल नेहरू", "सरदार पटेल", "इंदिरा गांधी"], 0, "यह नारा शास्त्री जी ने 1965 में दिया।"],
+["en", 13, 13, "History", 2, "The Harappan port city of Lothal is in which present-day state?", ["Rajasthan", "Gujarat", "Punjab", "Haryana"], 1, "Lothal is in Gujarat."],
+["hi", 13, 13, "History", 2, "हड़प्पा सभ्यता का बंदरगाह नगर लोथल वर्तमान में किस राज्य में है?", ["राजस्थान", "गुजरात", "पंजाब", "हरियाणा"], 1, "लोथल गुजरात में है।"],
+["en", 13, 13, "Geography", 1, "Which is the longest river of peninsular India?", ["Krishna", "Godavari", "Kaveri", "Mahanadi"], 1, "The Godavari is the longest peninsular river."],
+["hi", 13, 13, "Geography", 1, "प्रायद्वीपीय भारत की सबसे लंबी नदी कौन सी है?", ["कृष्णा", "गोदावरी", "कावेरी", "महानदी"], 1, "गोदावरी सबसे लंबी प्रायद्वीपीय नदी है।"],
+["en", 13, 13, "Geography", 0, "Which city is called the Silicon Valley of India?", ["Hyderabad", "Bengaluru", "Pune", "Chennai"], 1, "Bengaluru is India’s technology hub."],
+["hi", 13, 13, "Geography", 0, "किस शहर को भारत की सिलिकॉन वैली कहा जाता है?", ["हैदराबाद", "बेंगलुरु", "पुणे", "चेन्नई"], 1, "बेंगलुरु भारत का तकनीकी केंद्र है।"],
+["en", 13, 13, "Science", 1, "Deficiency of which vitamin causes scurvy?", ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], 2, "Lack of vitamin C causes scurvy."],
+["hi", 13, 13, "Science", 1, "किस विटामिन की कमी से स्कर्वी रोग होता है?", ["विटामिन A", "विटामिन B", "विटामिन C", "विटामिन D"], 2, "विटामिन C की कमी से स्कर्वी होता है।"],
+["en", 13, 13, "Science", 2, "Who discovered penicillin?", ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Edward Jenner"], 1, "Alexander Fleming discovered it in 1928."],
+["hi", 13, 13, "Science", 2, "पेनिसिलिन की खोज किसने की?", ["लुई पाश्चर", "अलेक्जेंडर फ्लेमिंग", "रॉबर्ट कोच", "एडवर्ड जेनर"], 1, "फ्लेमिंग ने 1928 में इसकी खोज की।"],
+["en", 13, 13, "Math", 1, "What is 25% of 480?", ["100", "120", "140", "160"], 1, "480 divided by 4 is 120."],
+["hi", 13, 13, "Math", 1, "480 का 25% कितना होता है?", ["100", "120", "140", "160"], 1, "480 का चौथाई 120 होता है।"],
+["en", 13, 13, "Computer & GK", 2, "The Reserve Bank of India was established in which year?", ["1935", "1947", "1950", "1969"], 0, "The RBI began working in 1935."],
+["hi", 13, 13, "Computer & GK", 2, "भारतीय रिज़र्व बैंक की स्थापना किस वर्ष हुई?", ["1935", "1947", "1950", "1969"], 0, "RBI की स्थापना 1935 में हुई।"],
+["en", 13, 13, "Computer & GK", 1, "Who is known as the Iron Man of India?", ["Subhas Chandra Bose", "Sardar Vallabhbhai Patel", "Bhagat Singh", "Lala Lajpat Rai"], 1, "Sardar Patel united the princely states."],
+["hi", 13, 13, "Computer & GK", 1, "भारत का ‘लौह पुरुष’ किसे कहा जाता है?", ["सुभाष चंद्र बोस", "सरदार वल्लभभाई पटेल", "भगत सिंह", "लाला लाजपत राय"], 1, "सरदार पटेल ने रियासतों को जोड़ा।"],
+["en", 6, 13, "History", 0, "Who is known as the Father of the Nation in India?", ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "B. R. Ambedkar"], 1, "Mahatma Gandhi is called the Father of the Nation."],
+["hi", 6, 13, "History", 0, "भारत में ‘राष्ट्रपिता’ किसे कहा जाता है?", ["जवाहरलाल नेहरू", "महात्मा गांधी", "सरदार पटेल", "बी. आर. अंबेडकर"], 1, "महात्मा गांधी को राष्ट्रपिता कहा जाता है।"],
+["en", 6, 13, "History", 0, "Who was the first Prime Minister of independent India?", ["Jawaharlal Nehru", "Lal Bahadur Shastri", "Indira Gandhi", "Morarji Desai"], 0, "Nehru took office on 15 August 1947."],
+["hi", 6, 13, "History", 0, "स्वतंत्र भारत के पहले प्रधानमंत्री कौन थे?", ["जवाहरलाल नेहरू", "लाल बहादुर शास्त्री", "इंदिरा गांधी", "मोरारजी देसाई"], 0, "नेहरू जी 15 अगस्त 1947 को प्रधानमंत्री बने।"],
+["en", 6, 13, "History", 1, "Which Mughal emperor built the Red Fort in Delhi?", ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], 2, "Shah Jahan built the Red Fort."],
+["hi", 6, 13, "History", 1, "दिल्ली का लाल किला किस मुगल बादशाह ने बनवाया?", ["अकबर", "जहाँगीर", "शाहजहाँ", "औरंगज़ेब"], 2, "लाल किला शाहजहाँ ने बनवाया।"],
+["en", 6, 13, "History", 1, "The Jallianwala Bagh massacre took place in which year?", ["1857", "1905", "1919", "1930"], 2, "It happened on 13 April 1919."],
+["hi", 6, 13, "History", 1, "जलियाँवाला बाग हत्याकांड किस वर्ष हुआ?", ["1857", "1905", "1919", "1930"], 2, "यह घटना 13 अप्रैल 1919 को हुई।"],
+["en", 6, 13, "History", 2, "Who said “Swaraj is my birthright”?", ["Bal Gangadhar Tilak", "Gopal Krishna Gokhale", "Lala Lajpat Rai", "Bipin Chandra Pal"], 0, "Tilak popularised this call."],
+["hi", 6, 13, "History", 2, "“स्वराज मेरा जन्मसिद्ध अधिकार है” किसने कहा?", ["बाल गंगाधर तिलक", "गोपाल कृष्ण गोखले", "लाला लाजपत राय", "बिपिन चंद्र पाल"], 0, "तिलक ने यह उद्घोष किया।"],
+["en", 6, 13, "History", 2, "Which movement began with the Dandi March?", ["Quit India", "Non-Cooperation", "Civil Disobedience", "Swadeshi"], 2, "The Salt March of 1930 launched Civil Disobedience."],
+["hi", 6, 13, "History", 2, "दांडी मार्च से कौन सा आंदोलन शुरू हुआ?", ["भारत छोड़ो", "असहयोग", "सविनय अवज्ञा", "स्वदेशी"], 2, "1930 के नमक सत्याग्रह से सविनय अवज्ञा शुरू हुआ।"],
+["en", 6, 13, "Science", 0, "Which planet is closest to the Sun?", ["Venus", "Mercury", "Earth", "Mars"], 1, "Mercury is the nearest planet to the Sun."],
+["hi", 6, 13, "Science", 0, "सूर्य के सबसे निकट कौन सा ग्रह है?", ["शुक्र", "बुध", "पृथ्वी", "मंगल"], 1, "बुध सूर्य के सबसे निकट है।"],
+["en", 6, 13, "Science", 1, "Which blood group is the universal donor?", ["A", "B", "AB", "O"], 3, "Group O (negative) red cells can be given to almost anyone."],
+["hi", 6, 13, "Science", 1, "सर्वदाता रक्त समूह कौन सा है?", ["A", "B", "AB", "O"], 3, "O समूह का रक्त लगभग सभी को दिया जा सकता है।"],
+["en", 6, 13, "Science", 1, "What is the chemical symbol of gold?", ["Ag", "Au", "Go", "Gd"], 1, "Au comes from the Latin word aurum."],
+["hi", 6, 13, "Science", 1, "सोने का रासायनिक प्रतीक क्या है?", ["Ag", "Au", "Go", "Gd"], 1, "Au लैटिन शब्द ऑरम से आया है।"],
+["en", 6, 13, "Science", 2, "Which plant tissue carries water from roots to leaves?", ["Phloem", "Xylem", "Cambium", "Epidermis"], 1, "Xylem transports water and minerals upwards."],
+["hi", 6, 13, "Science", 2, "पौधे में जड़ से पत्तियों तक पानी कौन सा ऊतक पहुँचाता है?", ["फ्लोएम", "जाइलम", "कैम्बियम", "एपिडर्मिस"], 1, "जाइलम पानी और खनिज ऊपर ले जाता है।"],
+["en", 6, 13, "English", 0, "Choose the correct plural of “knife”.", ["knifes", "knives", "knifs", "knive"], 1, "Words ending in -fe usually change to -ves."],
+["en", 6, 13, "English", 1, "Choose the correct preposition: She is good ___ mathematics.", ["in", "at", "on", "with"], 1, "We say “good at” a subject."],
+["hi", 6, 13, "Hindi", 1, "‘राजा’ का स्त्रीलिंग शब्द कौन सा है?", ["रानी", "राजी", "राजिनी", "राजन"], 0, "राजा का स्त्रीलिंग रानी होता है।"],
+["hi", 6, 13, "Hindi", 1, "‘पवन’ का पर्यायवाची शब्द कौन सा है?", ["हवा", "जल", "अग्नि", "पृथ्वी"], 0, "पवन, हवा, समीर एक ही अर्थ के शब्द हैं।"]
+].map((r, i) => ({ id: "b" + i, l: r[0], c: [r[1], r[2]], s: r[3] === "Grammar" ? (r[0] === "hi" ? "Hindi" : "English") : r[3], d: r[4], q: r[5], o: r[6], a: r[7], e: r[8] }));
+
+const NOTES = [
+ ["How photosynthesis works", "Plants make their own food using sunlight, water and carbon dioxide. The process takes place in chloroplasts, which contain a green pigment called chlorophyll. Roots absorb water from the soil, while tiny pores on leaves called stomata take in carbon dioxide from the air. Sunlight provides the energy that turns these raw materials into glucose, a simple sugar, and releases oxygen as a by-product. The glucose is used for growth or stored as starch. Without photosynthesis there would be almost no oxygen in the atmosphere and no food chain on land. The balanced equation is 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂. Remember: light energy is converted into chemical energy, and that energy is what every animal ultimately eats. Practise by drawing a labelled leaf diagram and marking where each input enters and each product leaves."],
+ ["Key ideas of the Indian Constitution", "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950. It begins with a Preamble that describes India as sovereign, socialist, secular and democratic. Part III lists the Fundamental Rights, which protect equality, freedom, and the right to constitutional remedies. Part IV contains the Directive Principles, which guide the government in making laws for social justice. Part IVA lists Fundamental Duties of every citizen. The Constitution divides powers between the Union and the States through three lists: Union, State and Concurrent. Parliament has two houses, the Lok Sabha and the Rajya Sabha, and the President is the constitutional head of state. Amendments are allowed under Article 368, but the basic structure of the Constitution cannot be changed. Revise these headings often, because they appear in almost every competitive exam."],
+ ["Smart ways to study mathematics", "Mathematics improves with daily practice, not last-minute cramming. Start every session by revisiting formulas you have already learned, then try two or three questions without looking at solutions. When you make a mistake, write down why it happened: a calculation slip, a forgotten rule or a misunderstood question. Break large problems into small steps and check each step. Use estimation to test whether an answer is sensible; if the area of a small room comes out as ten thousand square metres, something went wrong. Learn tables up to twenty and squares up to thirty, because they save valuable time in exams. Mix topics when practising so your brain learns to pick the right method, and review old chapters every weekend. Finally, explain a solved problem aloud to a friend or family member. Teaching is one of the fastest ways to find gaps in your own understanding."],
+ ["Fundamental Rights in the Indian Constitution", "Part III of the Constitution guarantees six Fundamental Rights to every citizen. The Right to Equality (Articles 14–18) ends discrimination and untouchability. The Right to Freedom (Articles 19–22) covers speech, movement and protection in case of arrest. The Right against Exploitation (Articles 23–24) bans forced labour and child labour in factories. The Right to Freedom of Religion (Articles 25–28) lets everyone follow and spread their faith peacefully. Cultural and Educational Rights (Articles 29–30) protect minorities. The Right to Constitutional Remedies (Article 32) lets a person approach the Supreme Court if a right is violated. The Right to Property was removed from this list in 1978 and is now a legal right under Article 300A."],
+ ["Fundamental Duties of citizens", "Fundamental Duties are listed in Article 51A. They were added by the 42nd Amendment in 1976 on the recommendation of the Swaran Singh Committee, and the list originally had ten duties. The eleventh, which says parents or guardians must give opportunities for education to children between six and fourteen years, was added by the 86th Amendment in 2002. The duties include respecting the Constitution, the national flag and the national anthem, protecting public property, developing scientific temper, safeguarding the environment and promoting harmony among all people. Unlike Fundamental Rights, these duties are not directly enforceable by courts, but they remind every citizen that rights and responsibilities go together."],
+ ["How a bill becomes a law", "A proposal for a new law is first introduced in Parliament as a bill. An ordinary bill can start in either the Lok Sabha or the Rajya Sabha, but a money bill can be introduced only in the Lok Sabha. Each house discusses the bill in three stages called readings, and may send it to a committee for detailed study. After both houses pass it, the bill goes to the President. When the President gives assent, it becomes an Act. If the two houses disagree on an ordinary bill, the President may call a joint sitting under Article 108. For a money bill, the Rajya Sabha can only make recommendations, which the Lok Sabha may accept or reject."],
+ ["The Indian Parliament", "Parliament has three parts: the President, the Lok Sabha and the Rajya Sabha. The Lok Sabha is the house of the people. It has 543 elected members, who are chosen directly by voters, and its normal term is five years. The Rajya Sabha is the council of states. It can have at most 250 members, of whom 238 are elected by state legislatures and 12 are nominated for their work in fields like art, science and literature. It is a permanent house, and one third of its members retire every two years. The Vice President of India is the chairman of the Rajya Sabha, while the Lok Sabha elects its own Speaker."],
+ ["Milestones of the Indian freedom struggle", "The Revolt of 1857 was the first large-scale challenge to the rule of the East India Company. The Indian National Congress was founded in 1885. The partition of Bengal in 1905 led to the Swadeshi movement. On 13 April 1919, British troops fired on a peaceful crowd at Jallianwala Bagh in Amritsar. Mahatma Gandhi launched the Non-Cooperation Movement in 1920 and led the Salt March to Dandi in March 1930. The Quit India Movement began on 8 August 1942 with the call of Do or Die. After years of sacrifice by countless people, India became independent on 15 August 1947, and the Constitution came into force on 26 January 1950."],
+ ["The Mughal Empire in brief", "The Mughal Empire began in 1526, when Babur defeated Ibrahim Lodi in the First Battle of Panipat. His son Humayun lost the throne for a time to Sher Shah Suri, who built the Grand Trunk Road and improved the revenue system. Akbar, who ruled from 1556 to 1605, expanded the empire, appointed officers through the mansabdari system and encouraged religious tolerance. Shah Jahan is remembered for the Taj Mahal and the Red Fort in Delhi. Aurangzeb ruled for almost fifty years and died in 1707, after which the empire weakened. Learning these rulers in order, with one achievement for each, makes history questions much easier."],
+ ["Major rivers of India", "Indian rivers are divided into the Himalayan rivers and the Peninsular rivers. Himalayan rivers such as the Indus, the Ganga and the Brahmaputra are fed by both rain and melting snow, so they carry water throughout the year. The Ganga, at about 2,525 km, is the longest river in India. Peninsular rivers depend mainly on rain. The Godavari is the longest of them, followed by the Krishna and the Kaveri, and all three flow east into the Bay of Bengal. The Narmada and the Tapi are unusual because they flow west into the Arabian Sea through rift valleys. Rivers supply drinking water, irrigation and hydroelectric power."],
+ ["The monsoon and the seasons of India", "India has four main seasons: summer from March to May, the rainy season from June to September, the retreating monsoon in October and November, and winter from December to February. The south-west monsoon winds usually reach Kerala around the first of June and bring most of the country’s yearly rainfall. They begin to withdraw in September. In October and December, the north-east monsoon brings rain to the coast of Tamil Nadu. Mawsynram in Meghalaya is among the wettest places on Earth. Because farming depends heavily on the monsoon, its timing and strength affect crops, prices and the lives of millions of farmers."],
+ ["The Solar System", "The Solar System has one star, the Sun, and eight planets. In order from the Sun they are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. Mercury is the smallest and the closest to the Sun, Venus is the hottest because of its thick atmosphere, and Mars looks red because of iron oxide in its soil. Jupiter is the largest planet, and Saturn is famous for its rings. Light from the Sun takes about eight minutes to reach Earth. Earth takes about 365 and a quarter days to go around the Sun, which is why we add a leap day every four years."],
+ ["Newton’s three laws of motion", "Newton’s first law says that an object stays at rest or keeps moving in a straight line at constant speed unless a force acts on it. This property is called inertia, and it is why passengers lean forward when a bus stops suddenly. The second law says that force equals mass times acceleration, written F = ma. A heavier object needs a bigger force to get the same acceleration. The third law says that every action has an equal and opposite reaction, which is how a rocket moves forward by pushing gas backward. The SI unit of force is the newton, and one newton is one kilogram metre per second squared."],
+ ["Acids, bases and the pH scale", "Acids taste sour and turn blue litmus paper red, while bases feel soapy and turn red litmus paper blue. The pH scale runs from 0 to 14. A pH of 7 is neutral, like pure water, values below 7 are acidic and values above 7 are basic. Lemon juice and vinegar are acids, and baking soda and soap are bases. When an acid reacts with a base, they neutralise each other and form a salt and water. Phenolphthalein is an indicator that turns pink in a base. Our stomach contains hydrochloric acid for digestion, and antacid tablets are mild bases that reduce the excess acid."],
+ ["The human digestive system", "Digestion begins in the mouth, where teeth break food into pieces and saliva starts to break down starch. The food travels down the oesophagus to the stomach, where hydrochloric acid and the enzyme pepsin help to digest proteins. In the small intestine, bile from the liver and juices from the pancreas complete digestion, and finger-like villi absorb nutrients into the blood. The large intestine absorbs water, and the remaining waste leaves the body. The liver is the largest gland in the body and the small intestine is the longest part of the digestive tract, about six metres long in an adult."],
+ ["Structure of the cell", "The cell is the basic unit of life. Robert Hooke first used the word cell in 1665 after looking at thin slices of cork. Every cell has a cell membrane that controls what enters and leaves, cytoplasm where chemical reactions take place, and a nucleus that holds the DNA and directs the cell. Mitochondria release energy and are called the powerhouse of the cell. Ribosomes make proteins. Plant cells also have a rigid cell wall, a large vacuole, and chloroplasts that carry out photosynthesis. Animal cells have none of these, which is one of the clearest differences between plant and animal cells."],
+ ["Algebraic identities that save time", "A few identities help you calculate faster. The square of a sum is (a + b)² = a² + 2ab + b². The square of a difference is (a − b)² = a² − 2ab + b². The difference of two squares is a² − b² = (a + b)(a − b). You can use them in mental maths: 103² is (100 + 3)², which equals 10,000 + 600 + 9, or 10,609. In the same way, 99 × 101 is (100 − 1)(100 + 1) = 10,000 − 1 = 9,999. Another useful result is (a + b)³ = a³ + 3a²b + 3ab² + b³. Practise recognising these patterns in questions, because they often hide inside factorisation problems."],
+ ["Percentages, profit and loss", "A percentage is a fraction out of 100, so percentage equals part divided by whole times 100. In profit and loss, profit is selling price minus cost price, and loss is cost price minus selling price. Profit percentage is profit divided by cost price times 100, and loss percentage is calculated the same way. For example, if you buy a book for ₹200 and sell it for ₹250, your profit is ₹50, which is 25 percent. Discount is calculated on the marked price, not on the cost price. To find a selling price quickly, multiply the cost price by (100 + profit percent) and divide by 100."],
+ ["Pythagoras theorem and basic mensuration", "In a right-angled triangle, the square of the longest side, called the hypotenuse, equals the sum of the squares of the other two sides: a² + b² = c². Common triples worth remembering are 3-4-5, 5-12-13 and 8-15-17. If two sides are 3 and 4, the hypotenuse is 5. Useful area formulas are length times breadth for a rectangle, half base times height for a triangle, and πr² for a circle. The perimeter of a rectangle is 2 times length plus breadth, and the circumference of a circle is 2πr. Always check that your units match before you calculate."],
+ ["Parts of speech in English grammar", "English words are grouped into eight parts of speech. A noun names a person, place or thing, like Delhi or teacher. A pronoun takes the place of a noun, like she or they. An adjective describes a noun, like tall or green. A verb shows an action or state, like run or is. An adverb describes a verb, adjective or another adverb, like quickly or very. A preposition shows relation, like in, on or between. A conjunction joins words or sentences, like and or but. An interjection expresses a sudden feeling, like wow or alas. To find a part of speech, always look at how the word is used in the sentence."],
+ ["The twelve tenses of English", "Every English tense has a time and an aspect. The three times are present, past and future, and the four aspects are simple, continuous, perfect and perfect continuous, which gives twelve tenses. For example, she writes is the simple present, she is writing is the present continuous, she has written is the present perfect, and she has been writing is the present perfect continuous. The same pattern works in the past with wrote, was writing, had written and had been writing, and in the future with will write, will be writing, will have written and will have been writing. Practise by changing one sentence through all twelve forms."],
+ ["हिंदी व्याकरण: संज्ञा, सर्वनाम, विशेषण और क्रिया", "किसी व्यक्ति, स्थान, वस्तु या भाव के नाम को संज्ञा कहते हैं, जैसे राम, दिल्ली, किताब और ईमानदारी। संज्ञा के तीन मुख्य भेद हैं: व्यक्तिवाचक, जातिवाचक और भाववाचक। संज्ञा के स्थान पर आने वाले शब्द सर्वनाम कहलाते हैं, जैसे मैं, तुम, वह और यह। जो शब्द संज्ञा या सर्वनाम की विशेषता बताए, उसे विशेषण कहते हैं, जैसे सुंदर, लंबा और पाँच। जिस शब्द से किसी काम का होना या करना पता चले, वह क्रिया है, जैसे पढ़ना, खेलना और लिखना। वाक्य बनाते समय लिंग और वचन का ध्यान रखना बहुत ज़रूरी है।"],
+ ["Computer basics and staying safe online", "A computer has hardware, the parts you can touch, and software, the programs that run on it. The CPU processes instructions, RAM holds the data currently in use and loses it when the power goes off, and ROM keeps permanent start-up instructions. The keyboard, mouse and scanner are input devices, while the monitor and printer are output devices. Data is measured in bytes: 8 bits make a byte and 1,024 bytes make a kilobyte, followed by megabyte, gigabyte and terabyte. To stay safe online, use strong passwords, never share an OTP or password, avoid clicking unknown links, and talk to a trusted adult or teacher if something online makes you uncomfortable."]
+];
+
+/* ---------- coins, streak, user ---------- */
+const used = () => ud && ud.todayDate === today() ? ud.todayEarned : 0;
+// Free (Spark) plan: coins are changed from the browser. The Firestore rules cap every write and rate-limit it.
+async function act(action, d = {}) {
+  const ref = doc(db, "users", user.uid), t = today(), now = Date.now();
+  let g = 0, patch = {};
+  if (action === "noteStart") { act.ns = { i: d.i, at: now }; return {}; }
+  if (action === "answer") {
+    if (now - (act.la || 0) < 12000) throw new Error("Too fast. Read the explanation first.");
+    act.la = now; g = REW[d.lv] || 10; patch = { lastAnswerAt: serverTimestamp() };
+  } else if (action === "note") {
+    const ids = ud.notes && ud.notes.date === t ? ud.notes.ids : [];
+    if (ids.includes(d.i)) throw new Error("You already claimed this note today.");
+    if (!act.ns || act.ns.i !== d.i || now - act.ns.at < 44000) throw new Error("Read the note for 45 seconds first.");
+    g = 15; patch = { notes: { date: t, ids: [...ids, d.i] }, lastNoteAt: serverTimestamp() };
+  } else if (action === "streak") {
+    const y = new Date(now + 19800000 - 864e5).toISOString().slice(0, 10), st = ud.lastLogin === y ? (ud.streak % 7) + 1 : 1;
+    g = STREAK[st - 1]; patch = { streak: st, lastLogin: t };
+  } else if (action === "daily") {
+    if (ud.dcDate === t) throw new Error("You already played today.");
+    g = d.score * 10; patch = { dcDate: t, dcScore: d.score };
+  }
+  const sec = pend; if (sec > 0) { patch.studySecs = increment(sec); patch.lastStudyAt = serverTimestamp(); }
+  await updateDoc(ref, { ...patch, coins: increment(g) });
+  ud.coins += g; ud.studySecs = (ud.studySecs || 0) + sec; pend -= sec; if (patch.dcDate) { ud.dcDate = patch.dcDate; ud.dcScore = patch.dcScore; } if (patch.streak) { ud.streak = patch.streak; ud.lastLogin = t; } if (patch.notes) ud.notes = patch.notes; paint();
+  return { granted: g, streak: ud.streak };
+}
+async function loadUser(u) {
+  const ref = doc(db, "users", u.uid); let s = await getDoc(ref);
+  if (!s.exists()) { await setDoc(ref, { ...(await askProfile()), group: "", dcDate: "", dcScore: 0, coins: 0, streak: 0, lastLogin: "", notes: { date: "", ids: [] }, lastAnswerAt: Timestamp.fromMillis(0), studySecs: 0, lastStudyAt: Timestamp.fromMillis(0), lastNoteAt: Timestamp.fromMillis(0) }); s = await getDoc(ref); }
+  ud = s.data(); const t = today();
+  if (ud.lastLogin !== t) {
+    const r = await act("streak"); ud.lastLogin = t; toast(`Day ${r.streak} streak: +${r.granted} bonus points`);
+  }
+}
+function paint() {
+  const n = ud && ud.nick ? ud.nick : "";
+  $("coins").textContent = $("pc").textContent = fmt(ud && ud.coins); $("ps").textContent = ud ? ud.streak : 0; $("pt").textContent = fmtT(ud && ud.studySecs);
+  $("pn").textContent = n; $("pe").textContent = ""; $("pav").textContent = (ud && ud.avatar) || "🙂";
+  $("adm").hidden = !(user && user.email === ADMIN); document.body.classList.toggle("authed", !!user);
+}
+async function board() {
+  if (!user) return;
+  try {
+    const s = await getDocs(query(collection(db, "users"), orderBy("coins", "desc"), limit(10)));
+    $("lb").innerHTML = s.docs.map((d, i) => { const x = d.data(); return `<li><span class="rk">${i + 1}</span><span style="flex:1;min-width:0">${esc(x.avatar || "🙂")} ${esc(x.nick || "Learner")}<small class="mut" style="display:block">${fmtT(x.studySecs)} studied</small></span><b>${fmt(x.coins)}</b></li>`; }).join("") || `<li class="mut">No players yet.</li>`;
+  } catch { $("lb").innerHTML = `<li class="mut">Sign in to see the leaderboard.</li>`; }
+}
+async function loadExtra() {
+  try { const c = JSON.parse(localStorage.getItem("sl-q") || "null"); if (c && Date.now() - c.t < 216e5) { extra = c.d; return; } } catch { } // cached for 6 hours to save reads
+  try { extra = (await getDocs(query(collection(db, "questions"), limit(300)))).docs.map(d => { const x = d.data(); return { id: d.id, l: x.lang, c: [+x.cls, +x.cls], s: x.subject, d: +x.difficulty, q: x.question, o: x.options, a: +x.answer, e: x.explanation }; }); try { localStorage.setItem("sl-q", JSON.stringify({ t: Date.now(), d: extra })); } catch { } } catch { extra = []; }
+}
+
+/* ---------- views ---------- */
+function setView(v) { curView = v; document.querySelectorAll("[data-v]").forEach(b => b.classList.toggle("on", b.dataset.v === v)); clearInterval(nt); ({ home, notes: notesV, wallet: walletV, daily: dailyV, group: groupV })[v](); }
+function home() { S.step === "quiz" ? ($("view").innerHTML = "", S.q ? quizUI() : nextQ()) : wizard(); }
+function wizard() {
+  const st = S.step, cfg = {
+    1: ["Step 1 of 3: choose your language", [["en", "English"], ["hi", "हिन्दी (Hindi)"]]],
+    2: ["Step 2 of 3: choose your class", [...Array(12)].map((_, i) => [i + 1, "Class " + (i + 1)]).concat([[13, "Competitive exams"]])],
+    3: ["Step 3 of 3: choose a subject", (S.cls <= 5 ? BASIC : FULL).map(k => [k, LBL[k] || k])]
+  }[st];
+  $("view").innerHTML = `<div class="card"><h1>Learn, answer and climb the leaderboard</h1><p class="mut">Pick your language, class and subject.${user ? "" : " Sign in with Google to collect points."}</p>
+  <h3>${cfg[0]}</h3><div class="chips">${cfg[1].map(([v, l]) => `<button data-pick="${st}" data-val="${esc(v)}">${esc(l)}</button>`).join("")}</div>
+  ${st > 1 ? `<button class="btn" data-a="back">Back</button>` : ""}</div>`;
+}
+function pool(d) {
+  const pd = paidSet(), c = +S.cls, sj = S.subj, lg = sj === "Hindi" ? "hi" : sj === "English" ? "en" : S.lang; // Hindi and English subjects always use Hindi / English content
+  return [...B, ...extra, ...fileQ].filter(x => (sj === "Mixed" ? x.l === S.lang : x.l === lg && x.s === sj) && c >= x.c[0] && c <= x.c[1] && (d == null || x.d === d) && !S.seen.has(x.id) && !pd.has(x.id));
+}
+const CAT = { Math: 19, Science: 17, "Computer & GK": 18, GK: 9, Geography: 22, History: 23, Civics: 24, Grammar: 9, English: 9, EVS: 17, Hindi: 9 };
+async function trivia() {
+  if (S.subj === "Hindi") return null;
+  try {
+    const r = await fetch(`https://opentdb.com/api.php?amount=1&type=multiple&encode=url3986&category=${CAT[S.subj] || 9}&difficulty=${API[S.lv]}`), t = (await r.json()).results?.[0];
+    if (!t) return null; const d = decodeURIComponent, c = d(t.correct_answer), o = shuffle([...t.incorrect_answers.map(d), c]);
+    return { id: "t" + hash(d(t.question)), q: d(t.question), o, a: o.indexOf(c), e: `The correct answer is “${c}”. Use these seconds to understand why before you move on.`, net: 1 };
+  } catch { return null; }
+}
+async function nextQ() {
+  $("view").innerHTML = `<div class="card">Loading your question…</div>`; S.done = 0;
+  if (!S.loaded) { S.loaded = 1; await loadSet(); }
+  let p = pool(S.lv); if (!p.length) p = pool(null);
+  let q = p.length ? p[Math.random() * p.length | 0] : await trivia();
+  if (!q) { S.seen = new Set(); p = pool(null); q = p[Math.random() * p.length | 0]; }
+  if (!q) { $("view").innerHTML = `<div class="card"><h3>You have finished today’s questions here</h3><p class="mut">Try another subject, or come back tomorrow for more. New questions are added regularly.</p><button class="btn p" data-a="quit">Change subject</button></div>`; return; }
+  S.seen.add(q.id); S.q = q; quizUI();
+}
+function quizUI() {
+  const q = S.q;
+  $("view").innerHTML = `<div class="card"><div class="top"><span class="chip">${LV[S.lv]} · +${REW[S.lv]} points per correct answer</span><span class="mut sm">Points: ${fmt(ud && ud.coins)}</span></div>
+  <div class="bar"><i style="width:${S.lv === 2 ? 100 : S.lp / 3 * 100}%"></i></div>
+  <p class="mut sm" style="margin:0">⏱ <b id="qt">30</b>s left</p>
+  <h2 style="margin-top:1rem">${esc(q.q)}</h2><div class="opts">${q.o.map((o, i) => `<button data-o="${i}">${esc(o)}</button>`).join("")}</div><div id="fb"></div>
+  <div class="row"><button class="btn" data-a="quit">Change subject</button><button class="btn p" id="nx" data-a="next" hidden disabled></button></div></div>`;
+  startTimer();
+}
+async function answer(i) {
+  if (S.done) return; S.done = 1; clearInterval(S.qi); const q = S.q, ok = i === q.a, bs = document.querySelectorAll(".opts button");
+  bs.forEach((b, k) => { b.disabled = true; if (k === q.a) b.classList.add("ok"); else if (k === i) b.classList.add("no"); });
+  let msg = ok ? "Correct!" : i < 0 ? "Time is up." : "Not quite.";
+  if (ok) {
+    S.lp++; const r = REW[S.lv];
+    if (user) { if (paidSet().has(q.id)) msg += " You already earned points on this question today."; else { try { const g = (await act("answer", { qid: q.id, lv: S.lv })).granted; markPaid(q.id); msg += g ? ` You earned ${g} points.` : ""; } catch (er) { msg += " " + (er.message || "Coins could not be saved."); } } }
+    else msg += " Sign in to earn points.";
+    if (S.lp >= 3 && S.lv < 2) { S.lv++; S.lp = 0; }
+  }
+  $("fb").innerHTML = `<div class="note"><b>${esc(msg)}</b><br>${esc(q.e || "")}</div>`;
+  const nx = $("nx"); nx.hidden = false; let s = 15; nx.textContent = `Next question in ${s}s`;
+  clearInterval(tick); tick = setInterval(() => { s--; if (s > 0) nx.textContent = `Next question in ${s}s`; else { clearInterval(tick); nx.disabled = false; nx.textContent = "Next question"; } }, 1000);
+}
+function notesV() {
+  const claimed = ud && ud.notes && ud.notes.date === today() ? ud.notes.ids : [];
+  $("view").innerHTML = `<div class="card"><h1>Read &amp; Earn</h1><p class="mut">Open a study note and keep scrolling for 45 seconds. The timer pauses if you stop scrolling or leave the tab. Then earn 15 points.</p>
+  <div class="chips">${NOTES.map((n, i) => `<button data-note="${i}">${esc(n[0])}${claimed.includes(i) ? " ✔" : ""}</button>`).join("")}</div><div id="na"></div></div>`;
+}
+function openNote(i) {
+  const n = NOTES[i]; let left = 45, last = 0;
+  $("na").innerHTML = `<h3>${esc(n[0])}</h3><div class="art" id="art"><p>${esc(n[1])}</p></div><p class="mut sm" id="nm"></p><button class="btn p" id="cl" data-a="claim" data-i="${i}" disabled>Claim 15 points</button>`;
+  const upd = () => $("nm").textContent = left > 0 ? `Keep scrolling: ${left}s left` : "Done! You can claim your points.";
+  if (user) act("noteStart", { i }).catch(() => {});
+  upd(); $("art").onscroll = () => last = Date.now(); clearInterval(nt);
+  nt = setInterval(() => { if (left > 0 && document.visibilityState === "visible" && Date.now() - last < 4000) { left--; upd(); if (!left) $("cl").disabled = false; } }, 1000);
+}
+async function claim(i) {
+  if (!user) return toast("Please sign in first.");
+  const t = today(), ids = ud.notes && ud.notes.date === t ? ud.notes.ids : [];
+  if (ids.includes(i)) return toast("You already claimed this note today.");
+  const g = (await act("note", { i })).granted;
+  toast(`+${g} points added`); notesV();
+}
+function walletV() {
+  if (!user || !ud) return;
+  const c = ud.coins, st = ud.studySecs || 0, days = STREAK.map((b, i) => `<span class="${i < ud.streak ? "on" : ""}">D${i + 1}<br>+${b}</span>`).join("");
+  const badges = [["🥉 Bronze learner", c >= 500], ["🥈 Silver learner", c >= 2000], ["🥇 Gold learner", c >= 5000], ["🔥 7-day streak", ud.streak >= 7], ["⏱ 1 hour of study", st >= 3600], ["📚 10 hours of study", st >= 36000]];
+  $("view").innerHTML = `<div class="card"><h1>My progress</h1>
+  <div class="stats" style="margin:.8rem 0"><div><b>${fmt(c)}</b><span>points</span></div><div><b>${fmtT(st)}</b><span>time studied</span></div><div><b>${ud.streak}</b><span>day streak</span></div></div>
+  <p class="mut sm">Correct answers and study notes earn points, so the more you study, the higher you climb the leaderboard. Points have no cash value.</p>
+  <h3>Badges</h3><div class="feat" style="grid-template-columns:repeat(auto-fill,minmax(160px,1fr))">${badges.map(([n, ok]) => `<div class="card" style="margin:0;padding:.7rem;${ok ? "" : "opacity:.45"}">${n}<div class="mut sm">${ok ? "Earned" : "Locked"}</div></div>`).join("")}</div>
+  <h3 style="margin-top:1.2rem">7-day login streak</h3><div class="days">${days}</div><p class="mut sm">Come back every day for a growing bonus. Missing a day restarts the streak.</p></div>`;
+}
+
+/* ---------- profile, daily challenge, groups ---------- */
+const SITE = location.origin + location.pathname;
+const AVS = ["🦊", "🐯", "🦁", "🐼", "🐨", "🐸", "🦄", "🐙", "🦉", "🐬", "🚀", "⭐"];
+let pRes = null, chosenAv = AVS[0], D = null, shareTxt = "";
+function askProfile() {
+  return new Promise(res => {
+    pRes = res; chosenAv = AVS[0];
+    modal("Welcome to StudyLingo", `<p class="mut">Pick a nickname and an avatar. Other learners will see only these, so please do not use your full name, phone number or school name.</p>
+    <label for="nk">Nickname (3–16 letters or numbers)</label><input id="nk" maxlength="16" autocomplete="off">
+    <label>Avatar</label><div class="avp">${AVS.map((a, i) => `<button type="button" data-av="${a}" class="${i ? "" : "on"}">${a}</button>`).join("")}</div>
+    <p id="nkerr" class="sm" style="color:var(--bad)"></p><button class="btn p" data-a="saveprof">Start learning</button>`);
+    document.querySelector(".x").hidden = true;
+  });
+}
+function saveProf() {
+  const n = $("nk").value.trim();
+  if (!/^[\p{L}\p{N} _]{3,16}$/u.test(n) || /\d{6,}/.test(n)) { $("nkerr").textContent = "Use 3–16 letters or numbers, and no long number strings."; return; }
+  const r = pRes; pRes = null; $("ov").hidden = true; r({ nick: n, avatar: chosenAv });
+}
+function seeded(seed) { let a = parseInt(hash(seed), 36) >>> 0; return () => { a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function dailySet(lg) { const r = seeded(today() + lg), a = B.filter(x => x.l === lg && x.c[0] >= 6); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a.slice(0, 10); }
+function dailyV() {
+  if (!user || !ud) return;
+  if (ud.dcDate === today()) return dailyDone(ud.dcScore);
+  if (D && D.day === today() && D.i < 10) return dailyQ();
+  $("view").innerHTML = `<div class="card"><h1>Daily challenge</h1><p class="mut">Ten questions, new every day, the same for everyone. You get only 5 seconds for each question, and you can play once a day. Earn 10 points for each correct answer.</p><h3>Choose a language</h3><div class="chips"><button data-a="dstart" data-lg="en">English</button><button data-a="dstart" data-lg="hi">हिन्दी</button></div></div>`;
+}
+function dailyQ() {
+  const q = D.q[D.i];
+  $("view").innerHTML = `<div class="card"><div class="top"><span class="chip">Daily challenge · ${D.i + 1} of 10</span></div><p class="mut sm" style="margin:.5rem 0 0">⏱ <b id="dt">5</b>s left</p><h2 style="margin-top:1rem">${esc(q.q)}</h2><div class="opts">${q.o.map((o, i) => `<button data-d="${i}">${esc(o)}</button>`).join("")}</div><div id="fb"></div></div>`;
+  startDT();
+}
+function startDT() {
+  clearInterval(D.ti); let t = 5; $("dt").textContent = t;
+  D.ti = setInterval(() => { if (!$("dt")) return clearInterval(D.ti); t--; $("dt").textContent = t; if (t <= 0) { clearInterval(D.ti); dailyAns(-1); } }, 1000);
+}
+function dailyAns(i) {
+  if (!D || D.lock) return; D.lock = 1; clearInterval(D.ti); const q = D.q[D.i], ok = i === q.a; D.res.push(ok);
+  document.querySelectorAll(".opts button").forEach((b, k) => { b.disabled = true; if (k === q.a) b.classList.add("ok"); else if (k === i) b.classList.add("no"); });
+  $("fb").innerHTML = `<div class="note"><b>${ok ? "Correct!" : i < 0 ? "Time is up." : "Not quite."}</b> ${esc(q.e || "")}</div><button class="btn p" data-a="dnext" style="margin-top:.6rem">${D.i < 9 ? "Next" : "See my result"}</button>`;
+}
+async function dailyFinish() {
+  const sc = D.res.filter(Boolean).length;
+  try { await act("daily", { score: sc }); } catch (e) { toast(e.message || "Could not save your score."); }
+  dailyDone(sc);
+}
+function dailyDone(sc) {
+  const row = D && D.day === today() && D.res.length === 10 ? D.res.map(x => x ? "🟩" : "🟥").join("") : "🟩".repeat(sc) + "🟥".repeat(10 - sc);
+  shareTxt = `StudyLingo Daily Challenge ${today()}: ${sc}/10 ${row}\nCan you beat me? ${SITE}`;
+  $("view").innerHTML = `<div class="card"><h1>Today’s score: ${sc} / 10</h1><p style="font-size:1.6rem;margin:.4rem 0">${row}</p><p class="mut">You earned ${sc * 10} points. Come back tomorrow for a new challenge.</p><button class="btn p" data-a="wa">Share on WhatsApp</button></div>`;
+}
+async function setGroup(c) { await updateDoc(doc(db, "users", user.uid), { group: c }); ud.group = c; groupV(); }
+async function groupV() {
+  if (!user || !ud) return; const g = ud.group || "";
+  if (!g) { $("view").innerHTML = `<div class="card"><h1>My group</h1><p class="mut">Make a private leaderboard for your class or friends. Share the code only with people you know.</p><button class="btn p" data-a="gnew">Create a new group</button><h3 style="margin-top:1.2rem">Or join with a code</h3><input id="gc" maxlength="12" placeholder="Group code" autocapitalize="characters" autocomplete="off"><button class="btn" data-a="gjoin">Join group</button></div>`; return; }
+  $("view").innerHTML = `<div class="card"><h1>Group ${esc(g)}</h1><p class="mut">Invite friends with this code. Only people who have the code can join.</p><div class="row" style="justify-content:flex-start"><button class="btn p" data-a="ginv">Invite on WhatsApp</button><button class="btn" data-a="gleave">Leave group</button></div><h3 style="margin-top:1.2rem">Group leaderboard</h3><ol class="lb" id="glb"><li class="mut">Loading…</li></ol></div>`;
+  try {
+    const sn = await getDocs(query(collection(db, "users"), where("group", "==", g), limit(50)));
+    $("glb").innerHTML = sn.docs.map(d => d.data()).sort((a, b) => b.coins - a.coins).map((x, i) => `<li><span class="rk">${i + 1}</span><span style="flex:1;min-width:0">${esc(x.avatar || "🙂")} ${esc(x.nick || "Learner")}<small class="mut" style="display:block">${fmtT(x.studySecs)} studied</small></span><b>${fmt(x.coins)}</b></li>`).join("");
+  } catch { $("glb").textContent = "Could not load the group."; }
+}
+
+/* ---------- modals ---------- */
+const POL = {
+  about: ["About StudyLingo", `<p>StudyLingo is a free educational quiz portal for Indian students in Classes 1–12 and competitive exam aspirants. It was founded by <b>Shahjad Ali</b>, a developer, coder and tech enthusiast who wanted daily practice to be simple, fair and rewarding.</p><p>Questions cover History, Constitution and Civics, Geography, Mathematics, Science, Hindi and English grammar, Computer studies and General Knowledge, in Hindi and English. Each answer comes with an explanation so that learning always comes before earning.</p>`],
+  privacy: ["Privacy Policy", `<p><b>What we collect.</b> When you sign in with Google through Firebase Authentication, we receive your name, email address and a unique ID. We store your nickname, avatar, points, streak, study time and group code in Google Cloud Firestore. We do not collect your home address or phone number. Your chosen nickname, avatar, points and study time are shown on leaderboards to other signed-in users. We do not show your real name. Because students may use the portal, parents or guardians are asked to sign in and manage the account on their behalf.</p><p><b>Cookies and advertising.</b> Google, as a third-party vendor, uses cookies, including the DoubleClick DART cookie, to serve ads on this site based on your visits to this and other sites. You can opt out of personalised advertising at Google’s Ads Settings. Firebase may also use cookies or local storage to keep you signed in.</p><p>We never sell personal data. To request deletion of your data, email studylingo.help@gmail.com.</p>`],
+  terms: ["Terms & Conditions", `<p>By using StudyLingo you agree to these terms.</p><p><b>Points.</b> Points, badges and leaderboard ranks are for learning and fun only. They have <b>no cash value</b> and cannot be exchanged for money, prizes or anything else. Points are earned through correct answers, study notes and daily streaks, never for viewing or clicking advertisements.</p><p><b>Learners under 18.</b> Please use StudyLingo with a parent or guardian and sign in with the parent’s or guardian’s Google account.</p><p><b>Fair use.</b> Bots, multiple accounts, scripts or any attempt to manipulate points lead to removal from the leaderboard or a ban. StudyLingo may change these terms or the points system at any time.</p>`],
+  contact: ["Contact us", `<p>Questions, feedback or a correction to a question? Write to us at <a href="mailto:studylingo.help@gmail.com">studylingo.help@gmail.com</a>.</p><p>We usually reply within a few working days.</p>`]
+};
+function modal(t, h) { document.querySelector(".x").hidden = false; $("mt").textContent = t; $("mb").innerHTML = h; $("ov").hidden = false; }
+async function adminUI() {
+  const subj = [...new Set([...BASIC, ...FULL])].filter(x => x !== "Mixed");
+  modal("Admin dashboard", `<h3>Add a question</h3><div class="g2">
+  <div><label>Language</label><select id="aL"><option value="en">English</option><option value="hi">Hindi</option></select></div>
+  <div><label>Class</label><select id="aC">${[...Array(12)].map((_, i) => `<option value="${i + 1}">Class ${i + 1}</option>`).join("")}<option value="13">Competitive</option></select></div>
+  <div><label>Subject</label><select id="aS">${subj.map(s => `<option value="${esc(s)}">${esc(LBL[s] || s)}</option>`).join("")}</select></div>
+  <div><label>Difficulty</label><select id="aD"><option value="0">Easy</option><option value="1">Medium</option><option value="2">Hard</option></select></div></div>
+  <label>Question</label><textarea id="aQ" rows="2"></textarea>
+  <div class="g2">${[0, 1, 2, 3].map(i => `<div><label>Option ${i + 1}</label><input id="aO${i}"></div>`).join("")}</div>
+  <label>Correct option</label><select id="aA"><option value="0">Option 1</option><option value="1">Option 2</option><option value="2">Option 3</option><option value="3">Option 4</option></select>
+  <label>Explanation</label><textarea id="aE" rows="2"></textarea><button class="btn p" data-a="addq">Save question</button>
+  <p class="sm mut" style="margin-top:1rem">Questions you add appear in the quiz for everyone.</p>`);
+
+}
+async function addQ() {
+  const v = id => $(id).value.trim(), o = [0, 1, 2, 3].map(i => v("aO" + i));
+  if (!v("aQ") || o.some(x => !x)) return toast("Fill the question and all 4 options.");
+  const x = { lang: v("aL"), cls: +v("aC"), subject: v("aS"), difficulty: +v("aD"), question: v("aQ"), options: o, answer: +v("aA"), explanation: v("aE") };
+  const r = await addDoc(collection(db, "questions"), x);
+  extra.push({ id: r.id, l: x.lang, c: [x.cls, x.cls], s: x.subject, d: x.difficulty, q: x.question, o, a: x.answer, e: x.explanation });
+  ["aQ", "aO0", "aO1", "aO2", "aO3", "aE"].forEach(i => $(i).value = ""); try { localStorage.removeItem("sl-q"); } catch { } toast("Question saved and added to the quiz.");
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", async e => {
+  const t = e.target.closest("button, a"); if (!t) return;
+  if (t.dataset.av) { chosenAv = t.dataset.av; document.querySelectorAll(".avp button").forEach(b => b.classList.toggle("on", b === t)); return; }
+  if (t.dataset.d !== undefined) return dailyAns(+t.dataset.d);
+  if (t.dataset.th) return setTheme(t.dataset.th);
+  if (t.closest(".drawer")) document.body.classList.remove("menu");
+  try {
+    if (t.dataset.v) return setView(t.dataset.v);
+    if (t.dataset.m) { const p = POL[t.dataset.m]; return modal(p[0], p[1]); }
+    if (t.dataset.pick) {
+      const st = +t.dataset.pick, v = t.dataset.val;
+      if (st === 1) { S.lang = v; S.step = 2; } else if (st === 2) { S.cls = +v; S.step = 3; }
+      else { S.subj = v; S.step = "quiz"; S.lv = 0; S.lp = 0; S.seen = new Set(); S.q = null; S.loaded = 0; fileQ = []; }
+      return home();
+    }
+    if (t.dataset.o !== undefined) return answer(+t.dataset.o);
+    if (t.dataset.note !== undefined) return openNote(+t.dataset.note);
+    switch (t.dataset.a) {
+      case "menu": document.body.classList.toggle("menu"); break;
+      case "saveprof": saveProf(); break;
+      case "dnext": D.lock = 0; D.i++; D.i < 10 ? dailyQ() : await dailyFinish(); break;
+      case "dstart": D = { day: today(), lg: t.dataset.lg, q: dailySet(t.dataset.lg), i: 0, res: [], lock: 0 }; dailyQ(); break;
+      case "wa": window.open("https://wa.me/?text=" + encodeURIComponent(shareTxt), "_blank"); break;
+      case "gnew": { const al = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; let c = "SL"; for (let k = 0; k < 5; k++) c += al[Math.random() * al.length | 0]; await setGroup(c); break; }
+      case "gjoin": { const c = ($("gc").value || "").trim().toUpperCase(); if (!/^[A-Z0-9]{4,12}$/.test(c)) return toast("A group code has 4–12 letters or numbers."); await setGroup(c); break; }
+      case "gleave": await setGroup(""); break;
+      case "ginv": shareTxt = `Join my StudyLingo group! Group code: ${ud.group}. Open ${SITE}, sign in, then go to the menu, My group, and join with the code.`; window.open("https://wa.me/?text=" + encodeURIComponent(shareTxt), "_blank"); break;
+      case "in": await signInWithPopup(auth, provider); break;
+      case "out": await signOut(auth); break;
+      case "close": $("ov").hidden = true; break;
+      case "admin": adminUI(); break;
+      case "addq": await addQ(); break;
+
+      case "back": S.step = Math.max(1, S.step - 1); wizard(); break;
+      case "quit": clearInterval(tick); clearInterval(S.qi); S.step = 3; S.q = null; wizard(); break;
+      case "next": clearInterval(tick); S.q = null; nextQ(); break;
+      case "claim": await claim(+t.dataset.i); break;
+
+    }
+  } catch (err) { console.error(err); toast("Something went wrong: " + (err.code || err.message)); }
+});
+$("ov").addEventListener("click", e => { if (e.target.id === "ov" && !pRes) $("ov").hidden = true; });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !pRes) $("ov").hidden = true; });
+
+onAuthStateChanged(auth, async u => {
+  user = u; ud = null; if (!u) { S = { step: 1 }; clearInterval(tick); clearInterval(nt); }
+  try { if (u) await loadUser(u); } catch (err) { console.error(err); toast("Could not load your profile. Check Firestore rules."); }
+  document.body.classList.add("ready"); paint(); board(); setView(curView); loadAds(u ? ".ad:not(.land)" : ".ad.land");
+  if (u) { loadExtra(); try { if (u.email === ADMIN && !sessionStorage.getItem("adm")) { sessionStorage.setItem("adm", "1"); adminUI(); } } catch { } }
+});
+$("pubnotes").innerHTML = NOTES.map(n => `<details><summary>${esc(n[0])}</summary><p class="mut">${esc(n[1])}</p></details>`).join("");
+paint(); setView("home");
+setInterval(() => { if (user && document.visibilityState === "visible") board(); }, 300000);
+</script>
+</body>
+</html>
